@@ -155,12 +155,11 @@ after_markdown: |-
   All signups will be on a first-come, first-served basis. However, completing this registration does not guarantee a seat for you. Upon registration, participants will be emailed payment details. Registrants will have 3 days to complete their payment in order to secure their slot for the session. Non-payment within the provided period will mean forfeiting one's slot. Please note that there will be only a number of slots for the workshop.
 
 images: |-
-  <img src='https://unsplash.it/600/700/?image=801'>
-  <img src='https://unsplash.it/600/300/?image=950'>
-  <img src='https://unsplash.it/600/400/?image=940'>
-  <img src='https://unsplash.it/600/300/?image=930'>
-  <img src='https://unsplash.it/600/300/?image=920'>
-  <img src='https://unsplash.it/600/300/?image=910'>
-  <img src='https://unsplash.it/600/300/?image=900'>
+  <img src='images/wednesday-2.jpg'>
+  <img src='images/typekita-1.jpg'>
+  <img src='images/b.jpg'>
+  <img src='images/typekita-2.jpg'>
+  <img src='https://unsplash.it/600/600/?image=920'>
+  <img src='images/typekita-3.jpg'>
   <img src='https://unsplash.it/600/300/?image=890'>
 ---
