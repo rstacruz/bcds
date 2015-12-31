@@ -3,7 +3,7 @@ layout: event
 title: TLC Workshop
 
 prelude: |-
-  <h4 class='lol-lol'>Better Creative Design Society</h4>
+  <h4 class='lol-lol'>Workshop Series 2016</h4>
 
   <div class='info-card'>
     <h4 class='title'>Jan 16 & 23, 2016</h4>
@@ -12,7 +12,10 @@ prelude: |-
   </div>
 
 content_markdown: |-
-  #### ...
+  <a style='position:absolute; top: 80px; right: 80px' class='brand-logo -black' href='/'></a>
+
+  #### Better Creative Design Society
+  {:._top-collapse._copper}
 
   # <b>TLC</b> Workshop
 
@@ -73,7 +76,7 @@ intermission: |-
       <div class="required-message">This is a required question</div>
       </div></div></div> <div class="ss-form-question errorbox-good" role="listitem">
       <div dir="auto" class="ss-item  ss-text"><div class="ss-form-entry">
-      <label class="ss-q-item-label" for="entry_1959526584"><div class="ss-q-title">Alternate Email Address 
+      <label class="ss-q-item-label" for="entry_1959526584"><div class="ss-q-title">Alternate Email Address
       </div>
       <div class="ss-q-help ss-secondary-text" dir="auto">We'll use this email in case your primary email can't be contacted.</div></label>
       <input name="entry.1959526584" value="" class="ss-q-short" id="entry_1959526584" dir="auto" aria-label="Alternate Email Address  We'll use this email in case your primary email can't be contacted. " title="" type="text">
