@@ -124,4 +124,16 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-html { line-height: 1.6em; padding: 70px; }
+* { box-sizing: border-box; }
+
+html { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.6em; font-family: acumin-pro, sans-serif; font-weight: 400; color: #456; }
+
+html, body { height: 100%; margin: 0; padding: 0; }
+
+html { background: #eee; }
+
+.content-pane { width: 50%; min-height: 100%; background: white; padding: 64px 16px; }
+
+.container { overflow: hidden; max-width: 500px; margin: 0 auto; }
+
+h1 { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 3em; }

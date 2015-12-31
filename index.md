@@ -3,10 +3,12 @@ layout: event
 title: TLC Workshop
 ---
 
-Hello.
+<div class='content-pane'>
+  <div class='container' markdown='1'>
 
-<div markdown='1'>
-## sup
+# TLC Workshop
 
-oh yes yay
+A 2-day crash course on typography, lettering and calligraphy
+
+  </div>
 </div>

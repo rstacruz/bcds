@@ -1,0 +1,47 @@
+---
+---
+@import 'normalize'
+
+$text: #456
+
+@mixin body-type
+  font-family: acumin-pro, sans-serif
+  font-weight: 400
+
+@mixin subheading-type
+  font-family: brandon-grotesque, sans-serif
+  font-weight: 300
+
+*
+  box-sizing: border-box
+
+html
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  line-height: 1.6em
+  +body-type
+  color: $text
+
+html, body
+  height: 100%
+  margin: 0
+  padding: 0
+
+html
+  background: #eee
+
+.content-pane
+  width: 50%
+  min-height: 100%
+  background: white
+  padding: 64px 16px
+
+.container
+  overflow: hidden
+  max-width: 500px
+  margin: 0 auto
+
+h1
+  +subheading-type
+  font-size: 3em
