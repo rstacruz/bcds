@@ -40,7 +40,7 @@
 
   // Question + hint
   .ss-q-item-label
-    // margin-bottom: 12px
+    margin-bottom: 12px
     display: block
 
   // Question name
@@ -64,9 +64,26 @@
   .ss-q-short,
   .ss-q-long
     +textarea-style
+    width: 100%
 
   .ss-q-long
     min-height: 6em
 
   .ss-password-warning
     display: none
+
+  .ss-q-other
+    +textarea-style
+    display: block
+    margin-left: 34px
+    margin-top: 8px
+    height: 32px
+    font-size: ms(-1)
+
+  .ss-choices,
+  .ss-choice-item
+    list-style-type: none
+
+  .ss-choice-label
+    margin-left: 16px
+    color: $ecru

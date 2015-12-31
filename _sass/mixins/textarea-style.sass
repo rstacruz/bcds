@@ -15,26 +15,29 @@
 @mixin textarea-style
   border: 0
   height: 48px
-  width: 100%
   background: transparent
   color: $decopper
-  border-bottom: solid 2px mix($decopper, $black, 20%)
-  background-color: rgba($copper, 0)
+  border-bottom: solid 1px mix($decopper, $black, 20%)
+  background-color: rgba(darken($black, 50%), .3)
   padding: 12px 16px
   border-radius: 2px
   padding-left: 0
-  transition: background-color 150ms ease
+  transition: background-color 250ms linear
+  box-shadow: inset 1px 1px 1px rgba(black, .2), inset 0 -1px 0 rgba(lighten($decopper, 10%), .2), inset -1px 0 0 rgba($decopper, .07), 0 0 0 1px rgba($tan, .5)
+  border-bottom: 0
 
   font-size: ms(1)
   font-weight: bold
+  padding-left: 16px
 
-  &:hover
-    border-bottom-color: mix($decopper, $black, 50%)
+  // &:hover
+  //   border-bottom-color: mix($decopper, $black, 50%)
 
   &:focus
-    border-bottom-color: $decopper
+    // border-bottom-color: $decopper
     color: $decopper
-    background-color: desaturate(rgba($decopper, .05), 50%)
+    background-color: desaturate(rgba($decopper, .1), 50%)
+    transition: background-color 50ms ease
     // padding-left: 16px
 
   &::-ms-input-placeholder
