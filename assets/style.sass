@@ -12,6 +12,10 @@ $ecru: #E0D1CB
   font-family: adelle-sans, sans-serif
   font-weight: 400
 
+@mixin heading-type
+  font-family: freight-big-pro, serif
+  font-weight: 700
+
 @mixin subheading-type
   font-family: brandon-grotesque, sans-serif
   font-weight: 300
@@ -48,7 +52,7 @@ html
   &:after
     content: ''
     top: 32px
-    left: 48px
+    left: 64px
     bottom: 32px
     right: 32px
     position: absolute
@@ -67,8 +71,9 @@ html
   max-width: 500px
 
 h1
-  +subheading-type
-  font-size: 3em
+  +heading-type
+  font-size: 5em
+  line-height: 1.2
   color: $copper
 
 h3
@@ -82,3 +87,9 @@ h3
   position: relative
   margin: 64px 0
   margin-left: calc(-50vw - 48px - 32px)
+
+.brief
+  +subheading-type
+  font-size: 2em
+  color: darken($ecru, 30%)
+  line-height: 1.3
