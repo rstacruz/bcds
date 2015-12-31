@@ -138,6 +138,8 @@ html, body { min-height: 100%; margin: 0; padding: 0; }
 
 html { background: #292424; }
 
+h1, h2, h3, p, ul, ol, blockquote { margin-top: 1.5em; margin-bottom: 1.5em; }
+
 h1 { padding-top: 1em; font-family: freight-big-pro, serif; font-weight: 700; font-size: 3.8147em; line-height: 1.2; color: #111; }
 h1 > b { font-size: 1.95313em; display: block; line-height: 1; }
 
