@@ -5,11 +5,24 @@
 {% include body.html %}
 
 <div class='duo-layout'>
-  <div class='ornament-pane'></div>
-  <div class='image-pane'></div>
-  <div class='content-pane'>
+  <div class='duo-ornament'></div>
+  <div class='duo-images'></div>
+  <div class='duo-aside'>
+    <div class='container'>
+      {{ page.page_prelude | markdownify }}
+    </div>
+  </div>
+  <div class='duo-content'>
     <div class='container'>
       {{ page.page_content | markdownify }}
+    </div>
+  </div>
+  <div class='duo-content -full'>
+    {{ page.page_break | markdownify }}
+  </div>
+  <div class='duo-content'>
+    <div class='container'>
+      {{ page.page_after | markdownify }}
     </div>
   </div>
 </div>

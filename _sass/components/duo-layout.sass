@@ -1,13 +1,45 @@
 .duo-layout
-  display: flex
   position: relative
+  background: White
 
-  > .image-pane,
-  > .content-pane
-    flex: 0 0 50%
+  > .duo-images,
+  > .duo-ornament,
+  > .duo-aside
+    position: absolute
+    left: 0
+    top: 0
+    width: 100%
+    height: 100%
+
+  > .duo-images
     width: 50%
-    min-height: 100%
+    height: 100%
 
+  > .duo-ornament
+    z-index: 2
+
+  > .duo-aside
+    width: 50%
+    height: 100%
+
+  > .duo-content
+    position: relative
+    z-index: 1
+    margin-left: 50%
+    width: 50%
+
+    &.-full
+      margin-left: 0
+      width: 100%
+
+//
+// Ornamental borders
+//
+
+.duo-ornament
+  $border-str: 2px
+
+  &:before,
   &:after
     content: ''
     top: 32px
@@ -15,17 +47,37 @@
     bottom: 32px
     right: 32px
     position: absolute
-    border: solid 1px $ecru
+
+  &:before
+    right: 50%
+    border: solid $border-str lighten($tan, 20%)
+    border-right: 0
     opacity: .4
 
-.content-pane
-  background: white
-  padding: 64px 64px 128px 64px
+  &:after
+    left: 50%
+    border: solid $border-str $ecru
+    border-left: 0
+    opacity: .4
 
-.image-pane
+.duo-content
+  &
+    padding: 64px
+
+  & + &:not(.-full)
+    padding-top: 0
+
+  &.-full
+    padding: 0
+
+.duo-aside
+  padding: 64px
+  padding-left: 96px
+  color: white
+
+.duo-images
   background: $tan
 
 .container
   margin: 0
   max-width: 500px
-

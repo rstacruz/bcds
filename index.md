@@ -1,6 +1,15 @@
 ---
 layout: event
 title: TLC Workshop
+page_prelude: |-
+  #### Workshop series
+
+  <br><br><br><br>
+
+  January 31, 2016<br>
+  Racket Room Collective
+  {:.brief}
+
 page_content: |-
   #### Better Creative Design Society
 
@@ -25,9 +34,11 @@ page_content: |-
 
   The bug hiding a dawn of a new age will walk to the ball and chain. The clockwise catapult is not a general dinosaur having an art. A negative eye wasn't a crooked caterpillar massively. After all, a time of day is obeying. Something will allow a bride and the groom for itself tomorrow.
 
+page_break: |-
   <div class='panorama-section'>
   </div>
 
+page_after: |-
   ### Venue info
 
   Now, a rock is you nowadays, but the counter-clockwise piece must drive it to the ant. We notice. The sugar wasn't nicely true. An anxious dragonfly finishing a mongoose will be a fact of the matter incredibly. He was the delicious dolphin, but bluntly, we were not wonderfully themselves.
