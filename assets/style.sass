@@ -1,12 +1,16 @@
 ---
 ---
 @import 'normalize'
+@import 'sassy-math'
 
 $text: #456
 $black: #111
 $copper: #BF6D33
 $tan: #292424
-$ecru: #E0D1CB
+$ecru: desaturate(#E0D1CB, 20%)
+
+@function ms($exponent, $base: 1.25)
+  @return unquote(exponent($base, $exponent) + 'em')
 
 @mixin body-type
   font-family: adelle-sans, sans-serif
@@ -56,37 +60,39 @@ html
     bottom: 32px
     right: 32px
     position: absolute
-    border: solid 6px $ecru
+    border: solid 1px $ecru
     opacity: .4
 
 .content-pane
   background: white
-  padding: 64px 48px 128px 16px
+  padding: 64px 64px 128px 64px
 
 .image-pane
   background: $tan
 
 .container
-  margin: 0 auto
+  margin: 0
   max-width: 500px
 
 h1
   padding-top: 1em
   +heading-type
-  font-size: 5em
+  font-size: ms(7)
   line-height: 1.2
-  color: $copper
+  color: $black
 
 h3
-  margin-top: 3em
+  margin-top: 3.5em
   color: $black
-  font-size: 1.2em
+  font-size: ms(-1)
+  text-transform: uppercase
+  letter-spacing: .1em
 
 h4
   color: $black
   text-transform: uppercase
-  letter-spacing: .2em
-  font-size: .86em
+  letter-spacing: .1em
+  font-size: ms(-1)
 
 .panorama-section
   background: $black
@@ -98,6 +104,6 @@ h4
 
 .brief
   +subheading-type
-  font-size: 1.8em
+  font-size: ms(3)
   color: darken($ecru, 30%)
   line-height: 1.26

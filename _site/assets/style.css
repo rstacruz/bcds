@@ -134,20 +134,20 @@ html { background: #292424; }
 
 .duo-layout { display: flex; position: relative; }
 .duo-layout > .image-pane, .duo-layout > .content-pane { flex: 0 0 50%; width: 50%; min-height: 100%; }
-.duo-layout:after { content: ""; top: 32px; left: 64px; bottom: 32px; right: 32px; position: absolute; border: solid 6px #E0D1CB; opacity: 0.4; }
+.duo-layout:after { content: ""; top: 32px; left: 64px; bottom: 32px; right: 32px; position: absolute; border: solid 1px #d8d5d3; opacity: 0.4; }
 
-.content-pane { background: white; padding: 64px 48px 128px 16px; }
+.content-pane { background: white; padding: 64px 64px 128px 64px; }
 
 .image-pane { background: #292424; }
 
-.container { margin: 0 auto; max-width: 500px; }
+.container { margin: 0; max-width: 500px; }
 
-h1 { padding-top: 1em; font-family: freight-big-pro, serif; font-weight: 700; font-size: 5em; line-height: 1.2; color: #BF6D33; }
+h1 { padding-top: 1em; font-family: freight-big-pro, serif; font-weight: 700; font-size: 4.76837em; line-height: 1.2; color: #111; }
 
-h3 { margin-top: 3em; color: #111; font-size: 1.2em; }
+h3 { margin-top: 3.5em; color: #111; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em; }
 
-h4 { color: #111; text-transform: uppercase; letter-spacing: 0.2em; font-size: 0.86em; }
+h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8em; }
 
 .panorama-section { background: #111; height: 500px; width: 100vw; position: relative; margin: 64px 0; margin-left: calc(-50vw - 48px - 32px); }
 
-.brief { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 1.8em; color: #a77c6b; line-height: 1.26; }
+.brief { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 1.95313em; color: #8f8683; line-height: 1.26; }
