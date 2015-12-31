@@ -1,0 +1,31 @@
+.duo-layout
+  display: flex
+  position: relative
+
+  > .image-pane,
+  > .content-pane
+    flex: 0 0 50%
+    width: 50%
+    min-height: 100%
+
+  &:after
+    content: ''
+    top: 32px
+    left: 64px
+    bottom: 32px
+    right: 32px
+    position: absolute
+    border: solid 1px $ecru
+    opacity: .4
+
+.content-pane
+  background: white
+  padding: 64px 64px 128px 64px
+
+.image-pane
+  background: $tan
+
+.container
+  margin: 0
+  max-width: 500px
+

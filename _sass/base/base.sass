@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700')
++ion-font
+
+*
+  box-sizing: border-box
+
+html
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  line-height: 1.8
+  +body-type
+  color: $text
+
+html, body
+  min-height: 100%
+  margin: 0
+  padding: 0
+
+html
+  background: $tan
+
+h1
+  padding-top: 1em
+  +heading-type
+  font-size: ms(7)
+  line-height: 1.2
+  color: $black
+
+h3
+  margin-top: 3.5em
+  color: $black
+  font-size: ms(0)
+  text-transform: uppercase
+  letter-spacing: .1em
+  padding-right: 20%
+
+h4
+  color: $black
+  text-transform: uppercase
+  letter-spacing: .1em
+  font-size: ms(-1)
+
+.brief
+  +subheading-type
+  font-size: ms(3)
+  color: darken($ecru, 30%)
+  line-height: 1.26

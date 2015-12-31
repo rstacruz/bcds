@@ -1,5 +1,6 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700");
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
 
 /** Remove default margin. */
@@ -124,13 +125,24 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
+@font-face { font-family: "Ionicons"; src: url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1"); src: url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?#iefix&v=2.0.1") format("embedded-opentype"), url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("//code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg"); font-weight: normal; font-style: normal; }
 * { box-sizing: border-box; }
 
-html { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.8; font-family: adelle-sans, sans-serif; font-weight: 400; color: #456; }
+html { text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; line-height: 1.8; font-family: karla, sans-serif; font-weight: 400; color: #40454a; }
 
 html, body { min-height: 100%; margin: 0; padding: 0; }
 
 html { background: #292424; }
+
+h1 { padding-top: 1em; font-family: freight-big-pro, serif; font-weight: 700; font-size: 4.76837em; line-height: 1.2; color: #111; }
+
+h3 { margin-top: 3.5em; color: #111; font-size: 1em; text-transform: uppercase; letter-spacing: 0.1em; padding-right: 20%; }
+
+h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8em; }
+
+.brief { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 1.95313em; color: #8f8683; line-height: 1.26; }
+
+.panorama-section { background: #111; height: 500px; width: 100vw; position: relative; margin: 64px 0; margin-left: calc(-50vw - 48px - 32px); }
 
 .duo-layout { display: flex; position: relative; }
 .duo-layout > .image-pane, .duo-layout > .content-pane { flex: 0 0 50%; width: 50%; min-height: 100%; }
@@ -141,13 +153,3 @@ html { background: #292424; }
 .image-pane { background: #292424; }
 
 .container { margin: 0; max-width: 500px; }
-
-h1 { padding-top: 1em; font-family: freight-big-pro, serif; font-weight: 700; font-size: 4.76837em; line-height: 1.2; color: #111; }
-
-h3 { margin-top: 3.5em; color: #111; font-size: 0.8em; text-transform: uppercase; letter-spacing: 0.1em; }
-
-h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8em; }
-
-.panorama-section { background: #111; height: 500px; width: 100vw; position: relative; margin: 64px 0; margin-left: calc(-50vw - 48px - 32px); }
-
-.brief { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 1.95313em; color: #8f8683; line-height: 1.26; }
