@@ -2,17 +2,17 @@
 layout: event
 title: TLC Workshop
 
-prelude_markdown: |-
-  #### Workshop series
+prelude: |-
+  <h4 class='lol-lol'>Better Creative Design Society</h4>
 
-  <br><br><br><br>
-
-  January 31, 2016<br>
-  Racket Room Collective
-  {:.brief}
+  <div class='info-card'>
+    <h4 class='title'>Jan 16 & 23, 2016</h4>
+    Racket Room Collective<br>
+    Quezon City
+  </div>
 
 content_markdown: |-
-  #### Better Creative Design Society
+  #### ...
 
   # <b>TLC</b> Workshop
 

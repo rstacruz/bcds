@@ -12,20 +12,29 @@
   </div>
   <div class='duo-aside'>
     <div class='sidecontainer'>
-      {{ page.prelude_markdown | markdownify }}
+      {{ page.prelude }}
     </div>
   </div>
   <div class='duo-content'>
     <div class='sidecontainer'>
+      {{ page.content }}
+      {% if page.content_markdown %}
       {{ page.content_markdown | markdownify }}
+      {% endif %}
     </div>
   </div>
   <div class='duo-content -full'>
     {{ page.intermission }}
+    {% if page.intermission_markdown %}
+    {{ page.intermission_markdown | markdownify }}
+    {% endif %}
   </div>
   <div class='duo-content'>
     <div class='sidecontainer'>
+      {{ page.after }}
+      {% if page.after_markdown %}
       {{ page.after_markdown | markdownify }}
+      {% endif %}
     </div>
   </div>
 </div>
