@@ -3,9 +3,12 @@
 @import 'normalize'
 
 $text: #456
+$black: #111
+$copper: #BF6D33
+$tan: #292424
 
 @mixin body-type
-  font-family: acumin-pro, sans-serif
+  font-family: adelle-sans, sans-serif
   font-weight: 400
 
 @mixin subheading-type
@@ -19,23 +22,43 @@ html
   text-rendering: optimizeLegibility
   -webkit-font-smoothing: antialiased
   -moz-osx-font-smoothing: grayscale
-  line-height: 1.6em
+  line-height: 1.75
   +body-type
   color: $text
 
 html, body
-  height: 100%
+  min-height: 100%
   margin: 0
   padding: 0
 
 html
-  background: #eee
+  background: $tan
+
+.duo-layout
+  display: flex
+  position: relative
+
+  > .image-pane,
+  > .content-pane
+    flex: 0 0 50%
+    width: 50%
+    min-height: 100%
+
+  &:after
+    content: ''
+    top: 32px
+    left: 32px
+    bottom: 32px
+    right: 32px
+    position: absolute
+    border: solid 2px $copper
 
 .content-pane
-  width: 50%
-  min-height: 100%
   background: white
-  padding: 64px 16px
+  padding: 64px 48px 128px 16px
+
+.image-pane
+  background: $tan
 
 .container
   overflow: hidden
@@ -45,3 +68,8 @@ html
 h1
   +subheading-type
   font-size: 3em
+  color: $copper
+
+h3
+  margin-top: 3em
+  color: $black
