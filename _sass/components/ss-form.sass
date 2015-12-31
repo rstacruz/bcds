@@ -1,0 +1,72 @@
+// Google Docs form
+//
+// #ss-form.ss-question-list
+//   ol.ss-question-list
+//     .ss-form-question
+//       .ss-item   (ss-item-required ss-text)
+//         .ss-form-entry
+//           label.ss-q-item-label
+//             .ss-q-title
+//               | Name:
+//               label.ss-required-asterisk *
+//
+//            .ss-q-help (ss-secondary-text)
+//              | First name, last name
+//
+//           -// short
+//           input.ss-q-short(type='text')
+//
+//           -// long
+//           textarea.ss-q-long
+//
+//           -// choices
+//           ul.ss-choices
+//             li.ss-choice-item
+//               label
+//                 span.ss-choice-item-control
+//                   input(type='radio')
+//                 span.ss-choice-label
+//                   | Yes
+//
+
+.ss-question-list
+  padding: 64px 0
+
+  .ss-form-question
+    line-height: 1.6
+
+  .ss-form-question + .ss-form-question
+    margin-top: 48px
+
+  // Question + hint
+  .ss-q-item-label
+    // margin-bottom: 12px
+    display: block
+
+  // Question name
+  .ss-q-title
+    +subheading-type-alt
+    font-size: ms(1)
+    color: white
+    display: inline
+    margin-right: 16px
+
+  // Hint
+  .ss-q-help
+    color: darken($ecru, 50%)
+    font-size: ms(-1)
+    display: inline
+
+  // "This is a required question"
+  .required-message
+    display: none
+
+  .ss-q-short,
+  .ss-q-long
+    +textarea-style
+
+  .ss-q-long
+    min-height: 6em
+
+  .ss-password-warning
+    display: none

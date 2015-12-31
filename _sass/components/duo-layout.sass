@@ -13,7 +13,6 @@
 
   > .duo-images
     width: 50%
-    height: 100%
 
   > .duo-ornament
     z-index: 2
@@ -31,13 +30,15 @@
     &.-full
       margin-left: 0
       width: 100%
+      z-index: 3
 
 //
 // Ornamental borders
 //
 
 .duo-ornament
-  $border-str: 2px
+  $border-str: 5px
+  pointer-events: none
 
   &:before,
   &:after
@@ -52,7 +53,7 @@
     right: 50%
     border: solid $border-str lighten($tan, 20%)
     border-right: 0
-    opacity: .4
+    opacity: .8
 
   &:after
     left: 50%
@@ -74,10 +75,22 @@
   padding: 64px
   padding-left: 96px
   color: white
+  text-align: center
 
 .duo-images
   background: $tan
+  overflow: hidden
 
-.container
+  img
+    width: 100%
+    display: block
+    margin: 0
+    opacity: .2
+
+.sidecontainer
   margin: 0
   max-width: 500px
+
+.container
+  max-width: 780px
+  margin: 0 auto

@@ -1,0 +1,62 @@
+@mixin textarea-placeholder
+  color: $copper
+  font-weight: normal
+  opacity: .2
+  font-family: serif
+  font-style: italic
+
+@mixin textarea-placeholder-focus
+  opacity: .1
+
+@mixin textarea-selection
+  background: rgba(black, .5)
+  color: mix($decopper, black, 80%)
+
+@mixin textarea-style
+  border: 0
+  height: 48px
+  width: 100%
+  background: transparent
+  color: $decopper
+  border-bottom: solid 2px rgba($decopper, .1)
+  background-color: rgba($copper, 0)
+  padding: 12px 16px
+  border-radius: 2px
+  padding-left: 0
+  transition: background-color 150ms ease
+
+  font-size: ms(1)
+  font-weight: bold
+
+  &:hover
+    border-bottom-color: rgba($copper, .5)
+
+  &:focus
+    border-bottom-color: $decopper
+    color: $decopper
+    background-color: desaturate(rgba($decopper, .05), 50%)
+    // padding-left: 16px
+
+  &::-ms-input-placeholder
+    +textarea-placeholder
+  &::-moz-placeholder
+    +textarea-placeholder
+  &::-webkit-input-placeholder
+    +textarea-placeholder
+  &::placeholder
+    +textarea-placeholder
+
+  &:focus
+    &::-ms-input-placeholder
+      +textarea-placeholder-focus
+    &::-moz-placeholder
+      +textarea-placeholder-focus
+    &::-webkit-input-placeholder
+      +textarea-placeholder-focus
+    &::placeholder
+      +textarea-placeholder-focus
+
+  &::-moz-selection
+    +textarea-selection
+  &::selection
+    +textarea-selection
