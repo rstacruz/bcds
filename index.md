@@ -1,4 +1,5 @@
 ---
 layout: redirect
-to: /tlc
+to: https://instagram.com/wearebcds
+# to: /tlc
 ---
