@@ -143,7 +143,7 @@ h1 > b { font-size: 1.95313em; display: block; line-height: 1; }
 
 h3 { margin-top: 3.5em; color: #111; font-size: 1em; font-family: brandon grotesque, brandon-grotesque, sans-serif; text-transform: uppercase; letter-spacing: 0.1em; padding-right: 20%; }
 
-h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1em; }
+h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 0.8em; padding-right: 30%; }
 
 .brief { font-family: brandon-grotesque, sans-serif; font-weight: 300; font-size: 1.95313em; color: #8f8683; line-height: 1.3; }
 
@@ -162,7 +162,7 @@ h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1
 
 .duo-ornament { pointer-events: none; }
 .duo-ornament:before, .duo-ornament:after { content: ""; top: 32px; left: 64px; bottom: 32px; right: 32px; position: absolute; }
-.duo-ornament:before { right: 50%; border: solid 5px #5f5454; border-right: 0; opacity: 0.8; }
+.duo-ornament:before { right: 50%; border: solid 5px #7a6c6c; border-right: 0; opacity: 0.8; }
 .duo-ornament:after { left: 50%; border: solid 5px #d8d5d3; border-left: 0; opacity: 0.4; }
 
 .duo-content { padding: 64px; }
@@ -174,22 +174,22 @@ h4 { color: #111; text-transform: uppercase; letter-spacing: 0.1em; font-size: 1
 .duo-images { background: #292424; overflow: hidden; }
 .duo-images img { width: 100%; display: block; margin: 0; opacity: 0.2; }
 
-.sidecontainer { margin: 0; max-width: 500px; }
+.sidecontainer { margin: 0; max-width: 480px; }
 
 .container { max-width: 780px; margin: 0 auto; }
 
-.panorama-section { background: #111; position: relative; padding-top: 32px; padding-bottom: 32px; }
+.panorama-section { background: -webkit-linear-gradient(165deg, #111111, rgba(17, 17, 17, 0.98) 50%, rgba(17, 17, 17, 0.7)), url("https://unsplash.it/1400/900/?image=914") center center/cover; background: linear-gradient(165deg, #111111, rgba(17, 17, 17, 0.98) 50%, rgba(17, 17, 17, 0.7)), url("https://unsplash.it/1400/900/?image=914") center center/cover; background-color: #111; background-attachment: fixed; position: relative; padding-top: 32px; padding-bottom: 32px; }
 .panorama-section > .container > iframe { margin: 0 auto; }
 
-.ss-question-list { padding: 64px 0; }
+.ss-question-list { padding: 128px 0; }
 .ss-question-list .ss-form-question { line-height: 1.6; }
 .ss-question-list .ss-form-question + .ss-form-question { margin-top: 48px; }
 .ss-question-list .ss-q-item-label { display: block; }
 .ss-question-list .ss-q-title { font-family: brandon grotesque, brandon-grotesque, sans-serif; font-weight: 700; font-size: 1.25em; color: white; display: inline; margin-right: 16px; }
 .ss-question-list .ss-q-help { color: #5b5451; font-size: 0.8em; display: inline; }
 .ss-question-list .required-message { display: none; }
-.ss-question-list .ss-q-short, .ss-question-list .ss-q-long { border: 0; height: 48px; width: 100%; background: transparent; color: #9b7357; border-bottom: solid 2px rgba(155, 115, 87, 0.1); background-color: rgba(191, 109, 51, 0); padding: 12px 16px; border-radius: 2px; padding-left: 0; transition: background-color 150ms ease; font-size: 1.25em; font-weight: bold; }
-.ss-question-list .ss-q-short:hover, .ss-question-list .ss-q-long:hover { border-bottom-color: rgba(191, 109, 51, 0.5); }
+.ss-question-list .ss-q-short, .ss-question-list .ss-q-long { border: 0; height: 48px; width: 100%; background: transparent; color: #9b7357; border-bottom: solid 2px #2d251f; background-color: rgba(191, 109, 51, 0); padding: 12px 16px; border-radius: 2px; padding-left: 0; transition: background-color 150ms ease; font-size: 1.25em; font-weight: bold; }
+.ss-question-list .ss-q-short:hover, .ss-question-list .ss-q-long:hover { border-bottom-color: #564234; }
 .ss-question-list .ss-q-short:focus, .ss-question-list .ss-q-long:focus { border-bottom-color: #9b7357; color: #9b7357; background-color: rgba(121, 121, 121, 0.05); }
 .ss-question-list .ss-q-short::-ms-input-placeholder, .ss-question-list .ss-q-long::-ms-input-placeholder { color: #BF6D33; font-weight: normal; opacity: 0.2; font-family: serif; font-style: italic; }
 .ss-question-list .ss-q-short::-moz-placeholder, .ss-question-list .ss-q-long::-moz-placeholder { color: #BF6D33; font-weight: normal; opacity: 0.2; font-family: serif; font-style: italic; }

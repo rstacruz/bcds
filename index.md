@@ -16,7 +16,7 @@ content_markdown: |-
 
   # <b>TLC</b> Workshop
 
-  ### A 2-day crash course on typography, lettering and calligraphy
+  #### A 2-day crash course on typography, lettering and calligraphy
 
   <p class='cta-box'>
   <a class='cta-button' href='#register'>Register now</a>
