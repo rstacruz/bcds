@@ -20,6 +20,10 @@ html, body
 html
   background: $tan
 
+@media (max-width: 769px)
+  html
+    font-size: 13px
+
 h1, h2, h3, p, ul, ol, blockquote
   margin-top: 1.5em
   margin-bottom: 1.5em
@@ -50,6 +54,10 @@ h2
     display: block
     line-height: 1
 
+  @media (max-width: 768px)
+    margin-top: 1
+    padding-top: 0
+
 h3
   margin-top: 3.5em
   margin-bottom: 1em
@@ -60,11 +68,20 @@ h3
   letter-spacing: .1em
   padding-right: 20%
 
+  @media (max-width: 768px)
+    margin-top: 1.5em
+    font-size: ms(1)
+    margin-bottom: 0
+
+    & + p
+      margin-top: .5em
+
 h4
   color: $black
   +caps-type
   font-size: ms(-1)
-  padding-right: 30%
+  @media (min-width: 769px)
+    padding-right: 30%
 
 .brief
   +subheading-type
@@ -81,3 +98,7 @@ a:visited
 a:hover,
 a:focus
   color: lighten($copper, 10%)
+
+ul
+  margin-left: 0
+  padding-left: 2em

@@ -1,6 +1,9 @@
 .cta-box
-  margin: 3em 0
-  margin-left: -64px - 16px
+  margin: 2em 0
+
+  @media (min-width: 769px)
+    margin-left: -64px - 16px
+    margin: 3em 0
 
 .cta-button
   display: inline-block
@@ -13,7 +16,15 @@
   font-size: ms(0)
   text-transform: uppercase
   letter-spacing: .2em
-  box-shadow: -16px 16px 0 white
+  white-space: nowrap
+
+  @media (min-width: 769px)
+    box-shadow: -16px 16px 0 white
+
+  @media (max-width: 768px)
+    padding-right: 24px
+    height: 56px
+    line-height: 56px
 
   &, &:visited
     color: white
@@ -31,6 +42,13 @@
     color: white
     text-align: center
     margin-right: 48px
+
+    @media (max-width: 768px)
+      width: 56px
+      height: 56px
+      line-height: 56px
+      margin-right: 24px
+      font-size: 16px
 
   &.-lite
     background: rgba($lighttan, .05)

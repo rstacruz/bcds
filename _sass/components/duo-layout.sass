@@ -1,7 +1,10 @@
 
 .duo-layout
   position: relative
-  background: White
+  background: white
+
+  @media (max-width: 768px)
+    padding-top: 32px
 
   > .duo-images,
   > .duo-ornament,
@@ -13,20 +16,29 @@
     height: 100%
 
   > .duo-images
-    width: 50%
+    @media (min-width: 769px)
+      width: 50%
 
   > .duo-ornament
     z-index: 2
+    @media (max-width: 768px)
+      display: none
 
   > .duo-aside
     width: 50%
     height: 100%
+    @media (max-width: 768px)
+      display: none
 
   > .duo-content
     position: relative
     z-index: 1
     margin-left: 50%
     width: 50%
+
+    @media (max-width: 768px)
+      margin-left: 0
+      width: 100%
 
     &.-full
       margin-left: 0
@@ -68,11 +80,24 @@
     padding: 64px
     padding-top: 72px
 
+  @media (max-width: 768px)
+    padding: 16px 0
+
   & + &:not(.-full)
     padding-top: 0
 
   &.-full
     padding: 0
+
+
+  > .watermark
+    position: absolute
+    top: 80px
+    right: 80px
+
+    @media (max-width: 768px)
+      top: 16px
+      right: 16px
 
 .duo-aside
   padding: 64px
@@ -83,6 +108,9 @@
 .duo-images
   background: $tan
   overflow: hidden
+
+  @media (max-width: 768px)
+    display: none
 
   img
     width: 100%
