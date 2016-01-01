@@ -1,3 +1,4 @@
+
 .duo-layout
   position: relative
   background: White
@@ -37,7 +38,6 @@
 //
 
 .duo-ornament
-  $border-str: 5px
   pointer-events: none
 
   &:before,
@@ -49,15 +49,17 @@
     right: 32px
     position: absolute
 
+  // Left
   &:before
     right: 50%
-    border: solid $border-str $lighttan
+    border: solid $stroke-width $lighttan
     border-right: 0
     opacity: .8
 
+  // Right
   &:after
     left: 50%
-    border: solid $border-str $ecru
+    border: solid $stroke-width $ecru
     border-left: 0
     opacity: .4
 

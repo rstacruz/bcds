@@ -1,5 +1,5 @@
 ---
 layout: redirect
-to: https://instagram.com/wearebcds
+to: https://bit.ly/TLCbyBCDS
 # to: /tlc
 ---
