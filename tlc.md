@@ -28,6 +28,13 @@ content_markdown: |-
   <a class='cta-button' href='#register'>Register now</a>
   </p>
 
+  ### Jan 16 & 23, 2016
+  {:._no-desktop}
+
+  1PM — 5PM, Saturdays<br>
+  Racket Room Collective, QC
+  {:._no-desktop}
+
   An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
   {:.brief}
 
