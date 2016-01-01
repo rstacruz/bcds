@@ -1,25 +1,64 @@
+$menu-width: 400px
+
+//
+// The burger menu.
+//
+//     .menu-block
+//       .menu-toggle
+//       .menu-screen
+//       .menu-dropdown
+//
 .menu-block
   > [type='checkbox']
     display: none
 
+// The burger
+.menu-toggle
+  position: fixed
+  top: 0
+  left: 18px
+  z-index: 25
+  cursor: pointer
+  width: 32px
+  height: 32px + 32px * 2
+  padding: 32px 0
+  transform: translate3d(0, 0, 0)
+  transition: transform 300ms ease-out
+
+  > div
+    +burger($color: $lighttan, $width: 24px, $height: 2px, $gutter: 6px, $border-radius: 2px)
+
+  &:hover > div
+    &, &:before, &:after
+      background-color: lighten($lighttan, 30%)
+
+// The menu
 .menu-dropdown
   display: block
   position: fixed
   left: 0
   top: 0
   bottom: 0
-  max-width: 300px
   background: $lighttan
   z-index: 20
   transition: transform 300ms ease-out
-  transform: translate3d(-300px, 0, 0)
   color: white
 
   text-align: center
   padding: 200px 32px
 
+  &
+    transform: translate3d(-100%, 0, 0)
+    width: 100%
+
+  @media (min-width: 480px)
+    transform: translate3d(-$menu-width, 0, 0)
+    width: $menu-width
+
+// The blackness
 .menu-screen
   background: black
+  background: linear-gradient(90deg + 30deg, rgba(black, .5), rgba(black, 1))
   opacity: 0
   transition: opacity 300ms linear
   position: fixed
@@ -30,24 +69,7 @@
   z-index: 20
   pointer-events: none
 
-.menu-toggle
-  position: fixed
-  top: 32px + 16px
-  left: 18px
-  z-index: 25
-  cursor: pointer
-  width: 32px
-  height: 32px
-  transform: translate3d(0, 0, 0)
-  transition: transform 300ms ease-out
-
-  > div
-    +burger($color: $lighttan, $width: 24px, $height: 2px, $gutter: 6px, $border-radius: 2px)
-
-input:checked + .menu-toggle
-  transform: translate3d(6px, 0, 0)
-
-input:checked + .menu-toggle > div
+input:checked ~ .menu-toggle > div
   +burger-to-cross($color: white)
 
 input:checked ~ .menu-dropdown

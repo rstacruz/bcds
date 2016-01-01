@@ -3,7 +3,7 @@ layout: event
 title: TLC Workshop
 
 prelude: |-
-  <h4 class='lol-lol'>Workshop Series 2016</h4>
+  <h4 class='lol-lol _top-collapse'>Workshop Series 2016</h4>
 
   <div class='info-card'>
     <h4 class='title'>Jan 16 & 23, 2016</h4>
@@ -12,8 +12,6 @@ prelude: |-
   </div>
 
 content_markdown: |-
-  <a style='position:absolute; top: 80px; right: 80px' class='brand-logo -black' href='/'></a>
-
   #### Better Creative Design Society
   {:._top-collapse._copper}
 

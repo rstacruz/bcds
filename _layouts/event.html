@@ -4,14 +4,7 @@
 
 {% include body.html %}
 
-<div class='menu-block'>
-  <input id='menu' type='checkbox'>
-  <label for='menu' class='menu-toggle'><div></div></label>
-  <label for='menu' class='menu-screen'></label>
-  <div class='menu-dropdown'>
-    Follow us on Instagram.
-  </div>
-</div>
+{% include menu-block.html %}
 
 <div class='duo-layout'>
   <div class='duo-ornament'></div>
@@ -25,6 +18,7 @@
     </div>
   </div>
   <div class='duo-content'>
+    <a style='position:absolute; top: 80px; right: 80px' class='brand-logo -black' href='/'></a>
     <div class='sidecontainer'>
       {{ page.content }}
       {% if page.content_markdown %}
