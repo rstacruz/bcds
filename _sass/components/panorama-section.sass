@@ -1,8 +1,9 @@
 .panorama-section
+  $color: darken($tan, 5%)
   $image: 'https://unsplash.it/1400/900/?image=914'
-  background: -webkit-linear-gradient(180deg - 15deg, rgba($black, 1), rgba($black, .98) 50%, rgba($black, .7)), url($image) center center / cover
-  background:         linear-gradient(180deg - 15deg, rgba($black, 1), rgba($black, .98) 50%, rgba($black, .7)), url($image) center center / cover
-  background-color: $black
+  background: -webkit-linear-gradient(180deg - 15deg, rgba($color, 1), rgba($color, .98) 50%, rgba($color, .7)), url($image) center center / cover
+  background:         linear-gradient(180deg - 15deg, rgba($color, 1), rgba($color, .98) 50%, rgba($color, .7)), url($image) center center / cover
+  background-color: $color
   background-attachment: fixed
   position: relative
   padding-top: 32px

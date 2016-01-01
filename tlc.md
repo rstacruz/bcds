@@ -42,7 +42,13 @@ content_markdown: |-
 
 intermission: |-
   <div class='panorama-section'>
-  <div class='container'>
+  <div class='widecontainer _padded-2x'>
+  <div class='md-col-6'>
+    <div class='register-heading'>
+      <h2>Reserve your seat</h2>
+      <p class='lead'>Let's write some beautiful letters.</p>
+      <p>Workshop fee is P 5,500. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
+    </div>
     <form action="https://docs.google.com/forms/d/1eWR3AyJ-7Mb8nK5vjkyr_bitMK27pBbZnVzrdqSz1zE/formResponse?embedded=true" method="POST" id="ss-form" target="_self"<ol role="list" class="ss-question-list" style="padding-left: 0">
       <div class="ss-form-question errorbox-good" role="listitem">
       <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
@@ -145,6 +151,7 @@ intermission: |-
     </tr></tbody></table></div></ol></form>
   </div>
   </div>
+  </div>
 
 after_markdown: |-
   ### Venue info
@@ -158,8 +165,9 @@ after_markdown: |-
 images: |-
   <img src='images/wednesday-2.jpg'>
   <img src='images/typekita-1.jpg'>
-  <img src='images/b.jpg'>
+  <img src='images/takeitslow.jpg'>
   <img src='images/typekita-2.jpg'>
+  <img src='images/b.jpg'>
   <img src='https://unsplash.it/600/600/?image=920'>
   <img src='images/typekita-3.jpg'>
   <img src='https://unsplash.it/600/300/?image=890'>

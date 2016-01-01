@@ -30,8 +30,6 @@
 //
 
 .ss-question-list
-  padding: 128px 0
-
   .ss-form-question
     line-height: 1.6
 
@@ -53,7 +51,7 @@
 
   // Hint
   .ss-q-help
-    color: darken($ecru, 50%)
+    color: $lighttan
     font-size: ms(-1)
     display: inline
 
@@ -87,3 +85,15 @@
   .ss-choice-label
     margin-left: 16px
     color: $ecru
+
+  .jfk-button
+    margin-top: 1em
+    background: $copper
+    color: white
+    border: 0
+    padding: 16px 64px
+    +caps-type
+
+    &:focus,
+    &:hover
+      background: lighten($copper, 10%)

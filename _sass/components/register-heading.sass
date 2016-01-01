@@ -1,0 +1,27 @@
+.register-heading
+  &
+    color: $lighttan
+    @media (min-width: 769px)
+      margin-bottom: 3em
+
+  > h2,
+  > p
+    margin: 0
+    padding: 0
+
+  > h2
+    +heading-type
+    margin: 0
+    padding: 0
+    color: white
+    font-size: ms(5)
+
+  > p
+    font-size: ms(0)
+
+  > .lead
+    +caps-type
+    color: $copper
+    font-size: ms(-1)
+    margin-top: -.3em
+    margin-bottom: .8em
