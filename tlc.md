@@ -13,8 +13,8 @@ prelude: |-
 
   <div class='info-card'>
     <h4 class='title'>Jan 16 & 23, 2016</h4>
-    Racket Room Collective<br>
-    Quezon City
+    1PM - 5PM, Saturdays<br>
+    Racket Room Collective, QC<br>
   </div>
 
 content_markdown: |-
