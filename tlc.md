@@ -81,7 +81,7 @@ intermission: |-
   <div class='md-col-6'>
     <div class='register-heading'>
       <h2>Reserve your seat</h2>
-      <p class='lead'>Let's write some beautiful letters.</p>
+      <p class='lead'>Only 25 seats available</p>
       <p>Workshop fee is <strong>P 5,500</strong>, which includes materials, worksheets, food and other goodies. We accept payments over bank deposit.</p>
       <button role='register' class='cta-button-2'>Reserve your seat</button>
     </div>
