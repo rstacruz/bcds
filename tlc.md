@@ -41,15 +41,17 @@ content_markdown: |-
   The bug hiding a dawn of a new age will walk to the ball and chain. The clockwise catapult is not a general dinosaur having an art. A negative eye wasn't a crooked caterpillar massively. After all, a time of day is obeying. Something will allow a bride and the groom for itself tomorrow.
 
 intermission: |-
-  <div class='panorama-section'>
+  <div class='panorama-section' id='register'>
   <div class='widecontainer _padded-2x'>
   <div class='md-col-6'>
     <div class='register-heading'>
       <h2>Reserve your seat</h2>
       <p class='lead'>Let's write some beautiful letters.</p>
       <p>Workshop fee is P 5,500. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
+      <button role='register' class='cta-button-2'>Reserve your seat</button>
     </div>
-    <form action="https://docs.google.com/forms/d/1eWR3AyJ-7Mb8nK5vjkyr_bitMK27pBbZnVzrdqSz1zE/formResponse?embedded=true" method="POST" id="ss-form" target="_self"<ol role="list" class="ss-question-list" style="padding-left: 0">
+    <form id='register-form' class='_hide' action="https://docs.google.com/forms/d/1eWR3AyJ-7Mb8nK5vjkyr_bitMK27pBbZnVzrdqSz1zE/formResponse?embedded=true" method="POST" id="ss-form" target="_self">
+    <ol role="list" class="ss-question-list" style="padding-left: 0">
       <div class="ss-form-question errorbox-good" role="listitem">
       <div dir="auto" class="ss-item ss-item-required ss-text"><div class="ss-form-entry">
       <label class="ss-q-item-label" for="entry_404801151"><div class="ss-q-title">Name
@@ -149,6 +151,8 @@ intermission: |-
     <input name="submit" value="Submit" id="ss-submit" class="jfk-button jfk-button-action " type="submit">
     <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
     </tr></tbody></table></div></ol></form>
+
+    <p class='_hide'>Workshop fee is P 5,500. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
   </div>
   </div>
   </div>

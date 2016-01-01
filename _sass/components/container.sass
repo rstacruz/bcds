@@ -18,12 +18,21 @@
 
 .widecontainer
   +clearfix
-  max-width: 960px
-  margin: 0 auto
+  width: auto
+  margin: 0 32px
 
-  @media (max-width: 1000px)
-    width: 100%
-    margin: 0 16px
+  @media (min-width: 481px)
+    width: auto
+    margin-left: 96px
+
+  @media (min-width: 769px)
+    max-width: 700px
+    margin: 0 auto
+    
+  @media (min-width: 1200px)
+    max-width: 960px
+    margin: 0 auto
 
 .md-col-6
-  width: 60%
+  @media (min-width: 1200px)
+    width: 60%
