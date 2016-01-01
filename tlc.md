@@ -15,30 +15,59 @@ content_markdown: |-
   #### Better Creative Design Society
   {:._top-collapse._copper}
 
-  # <b>TLC</b> Workshop
-
-  #### A 2-day crash course on typography, lettering and calligraphy
+  # <b>TLC</b> <span>Typography, Lettering &<br>Calligraphy Workshop</span>
+  {:.tlc-heading}
 
   <p class='cta-box'>
   <a class='cta-button' href='#register'>Register now</a>
   </p>
 
-  A crash course on so much shit. It hurts and you'll love it. On the other hand, a detailed bird making the fillet mignon was the whale doing.
+  An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
   {:.brief}
 
   ### What you'll learn
 
-  When designing any typography, lettering, and calligraphy piece, it's important for us to look not only at the aesthetics of our work but also for us to understand it's design, representation and context. It's also helpful for us to have a strong foundation with the letters that we draw and write therefore giving us the creative freedom to make visually appealing and contextual works.
-
   The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercise and projects that will cater to the topics.
 
-  ### What to expect
+  ## Course outline
 
-  The donkey will run. It will be itself aside from a four-by-four. The functional artwork will be usually anxious or it. A banana rushing a four-wheel drive obeyed you. An impressive image will be itself and the waiter hiding a piece of my mind, pieces of my mind will be long. They have helping hands. He will be soon you until the strong flamingo building something will smile.
+  > #### Day 1: Hand Lettering 101
+  > Master the art of drawing letterforms. In this subject, we will learn the principles of typography and how they can be applied to make dramatic lettering pieces by hand.
+  {:.course-item}
 
-  ### Materials
+  > #### Day 1: Gothic Calligraphy
+  > Learn the wonderful art of writing blackletter calligraphy using broad-nibbed pens. We will be providing [Parallel Pens](http://pilotpen.us/categories/calligraphy-pens/parallel-pen/) as part of the workshop materials.
+  {:.course-item}
 
-  The bug hiding a dawn of a new age will walk to the ball and chain. The clockwise catapult is not a general dinosaur having an art. A negative eye wasn't a crooked caterpillar massively. After all, a time of day is obeying. Something will allow a bride and the groom for itself tomorrow.
+  > #### Day 2: Brush Lettering
+  > Write expressive letters with our primer on brush lettering. You will learn how to maximize the use brushes and brush pens to draw eloquent script letters.
+  {:.course-item}
+
+  > #### Day 2: Typography layouts
+  > Learn the secrets on building well-composed art pieces.
+  {:.course-item}
+
+  <p class='cta-box'>
+  <a class='cta-button -lite' href='#register'>Register now</a>
+  </p>
+
+  ### Materials included
+
+  There won't be a need to bring anything but an eagerness to learn. Of course, you're more than welcome to bring your own tools too, if you prefer! We will be providing the following materials, hand-picked by the BCDS team:
+
+  - Pilot Parallel pen
+  - Various brush pens
+  - Basic drawing tools (rules, pencils, erasers)
+  - Lots of paper
+
+  ### Your mentors
+
+  The BCDS team is a group of visual artists with a passion for typography. We are:
+
+  - Jelvin Base ([@jelvin](https://instagram.com/jelvin))
+  - Carl Chua ([@carligraphy](https://instagram.com/carligraphy))
+  - John Ed De Vera ([@battery_full](https://instagram.com/battery_full))
+  - Rico Sta. Cruz ([@rstacruz](https://instagram.com/rstacruz))
 
 intermission: |-
   <div class='panorama-section' id='register'>
@@ -163,7 +192,7 @@ intermission: |-
 after_markdown: |-
   ### Venue info
 
-  Now, a rock is you nowadays, but the counter-clockwise piece must drive it to the ant. We notice. The sugar wasn't nicely true. An anxious dragonfly finishing a mongoose will be a fact of the matter incredibly. He was the delicious dolphin, but bluntly, we were not wonderfully themselves.
+  [Racket Room Collective](http://www.racketroomcollective.com) is a coworking space in Quezon City ([view map](https://goo.gl/maps/82mduWgtmTP2)). Located along Sgt Esguerra Avenue, t is the perfect place for creative gatherings.
 
   ### Additional info
 

@@ -5,7 +5,6 @@
 .cta-button
   display: inline-block
   background: $black
-  color: white
   text-decoration: none
   height: 80px
   line-height: 80px
@@ -14,8 +13,10 @@
   font-size: ms(0)
   text-transform: uppercase
   letter-spacing: .2em
-
   box-shadow: -16px 16px 0 white
+
+  &, &:visited
+    color: white
 
   &:before
     +ion-icon('chevron-right')
@@ -30,3 +31,19 @@
     color: white
     text-align: center
     margin-right: 48px
+
+  &.-lite
+    background: rgba($lighttan, .05)
+    color: $black
+    +caps-type
+
+  &:hover,
+  &:focus
+    background: $copper
+    color: white
+
+    &:before
+      background: darken($copper, 10%)
+
+.cta-button-2
+  +button
