@@ -62,11 +62,14 @@ h3
   margin-top: 3.5em
   margin-bottom: 1em
   color: $black
-  font-size: ms(0)
+  font-size: ms(0) + (ms(1) - ms(0)) / 2
   +caps-type
   text-transform: uppercase
   letter-spacing: .1em
   padding-right: 20%
+
+  & + p
+    margin-top: -.8em
 
   @media (max-width: 768px)
     margin-top: 1.5em
