@@ -40,7 +40,7 @@ content_markdown: |-
 
   ### What you'll learn
 
-  The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercise and projects that will cater to the topics.
+  The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
 
   ## Course outline
 
