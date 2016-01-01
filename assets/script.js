@@ -18,7 +18,7 @@ function openRegisterForm () {
   var form = document.querySelector('#register-form')
   form.className = form.className.replace(/_hide/g, '')
 
-  var footer = document.querySelector('#register-form + p')
+  var footer = document.querySelector('.register-info')
   footer.className = footer.className.replace(/_hide/g, '')
 
   setTimeout(function () {

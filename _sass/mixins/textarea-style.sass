@@ -14,34 +14,38 @@
 
 @mixin textarea-style
   border: 0
-  height: 48px
+  height: 40px
   background: transparent
   color: $decopper
   border-bottom: solid 1px mix($decopper, $black, 20%)
   background-color: rgba(darken($black, 50%), .3)
   padding: 12px 16px
-  border-radius: 2px
   padding-left: 0
-  transition: background-color 50ms linear
-  box-shadow: inset 1px 1px 1px rgba(black, .2), inset 0 -1px 0 rgba(lighten($lighttan, 10%), .4), inset -1px 0 0 rgba($lighttan, .07), 0 0 0 1px rgba($lighttan, .1)
+  // transition: background-color 50ms linear
   border-bottom: 0
 
   font-size: ms(1)
   font-weight: bold
   padding-left: 16px
 
-  // &:hover
-  //   border-bottom-color: mix($decopper, $black, 50%)
+  border-bottom: solid 1px $decopper
+  background: transparent
+  padding-left: 0
+
+  &:hover
+    border-bottom-color: lighten($decopper, 20%)
 
   &:focus
     // border-bottom-color: $decopper
+    border-radius: 2px
     color: $black
     background-color: desaturate(rgba($decopper, .1), 50%)
     background-color: white
     box-shadow: none
-    transition: background-color 50ms ease
+    border-bottom-color: transparent
+    // transition: background-color 50ms ease
     outline: 0
-    // padding-left: 16px
+    padding-left: 12px
 
   &::-ms-input-placeholder
     +textarea-placeholder

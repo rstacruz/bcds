@@ -47,7 +47,7 @@ intermission: |-
     <div class='register-heading'>
       <h2>Reserve your seat</h2>
       <p class='lead'>Let's write some beautiful letters.</p>
-      <p>Workshop fee is P 5,500. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
+      <p>Workshop fee is <strong>P 5,500</strong>, which includes materials, worksheets, food and other goodies. We accept payments over bank deposit.</p>
       <button role='register' class='cta-button-2'>Reserve your seat</button>
     </div>
     <form id='register-form' class='_hide' action="https://docs.google.com/forms/d/1eWR3AyJ-7Mb8nK5vjkyr_bitMK27pBbZnVzrdqSz1zE/formResponse?embedded=true" method="POST" id="ss-form" target="_self">
@@ -152,7 +152,10 @@ intermission: |-
     <div class="ss-password-warning ss-secondary-text">Never submit passwords through Google Forms.</div></td>
     </tr></tbody></table></div></ol></form>
 
-    <p class='_hide'>Workshop fee is P 5,500. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
+    <div class='register-info _hide'>
+      <p>Workshop fee is <strong>P 5,500</strong>. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.</p>
+      <p>Also, please take note that workshop fee is NON-REFUNDABLE. However, in the event that one needs to back out/withdraw from the class, the fee may be transferable to another person and can be used on the same workshop date. It is the responsibility of the withdrawing student to look for his/her replacement and to provide the organizer with the substitute student's information.</p>
+    </div>
   </div>
   </div>
   </div>
