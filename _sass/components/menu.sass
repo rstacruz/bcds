@@ -37,6 +37,7 @@ $menu-width: 400px
   -webkit-transition: -webkit-transform 300ms ease-out
   transform: translate3d(0, 0, 0)
   transition: transform 300ms ease-out
+  transition: transform 300ms ease-out, -webkit-transform 300ms ease-out
 
   > div
     position: relative
@@ -64,7 +65,9 @@ $menu-width: 400px
   bottom: 0
   background: $lighttan
   z-index: 20
+  -webkit-transition: -webkit-transform 300ms ease-out
   transition: transform 300ms ease-out
+  transition: transform 300ms ease-out, -webkit-transform 300ms ease-out
   color: white
 
   text-align: center
