@@ -1,6 +1,5 @@
 onmount('[href="#register"]', function () {
   on(this, 'click', function (e) {
-    e.preventDefault()
     openRegisterForm()
   })
 })
@@ -23,7 +22,7 @@ function openRegisterForm () {
 
   setTimeout(function () {
     form.querySelector('input').focus()
-  })
+  }, 25)
 }
 
 onmount()

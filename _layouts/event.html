@@ -1,6 +1,12 @@
 {% include head.html %}
 
 <title>{{ page.title }}</title>
+<meta content='website' property='og:type'>
+<meta content='{{ page.title }}' property='og:title'>
+<meta content='{{ page.title }}' name='description'>
+<meta content='{{ page.description }}' property='og:description'>
+<meta content='{{ page.description }}' name='description'>
+<meta content='http://bcds.design{{ page.image }}' property='og:image'>
 
 {% include body.html %}
 

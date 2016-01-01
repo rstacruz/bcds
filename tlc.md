@@ -1,6 +1,8 @@
 ---
 layout: event
 title: TLC Workshop
+description: Typography, Lettering & Calligraphy Workshop — Jan 16 & 23, 2016
+image: /images/tlc/preview.png
 
 prelude: |-
   <h4 class='lol-lol _top-collapse'>Workshop Series 2016</h4>
@@ -190,21 +192,27 @@ intermission: |-
   </div>
 
 after_markdown: |-
-  ### Venue info
+  ## The venue
 
-  [Racket Room Collective](http://www.racketroomcollective.com) is a coworking space in Quezon City ([view map](https://goo.gl/maps/82mduWgtmTP2)). Located along Sgt Esguerra Avenue, t is the perfect place for creative gatherings.
+  [Racket Room Collective](http://www.racketroomcollective.com) is a coworking space in Quezon City ([view map](https://goo.gl/maps/82mduWgtmTP2)). Located along Sgt Esguerra Avenue, it's the perfect place for creative gatherings.
 
   ### Additional info
 
   All signups will be on a first-come, first-served basis. However, completing this registration does not guarantee a seat for you. Upon registration, participants will be emailed payment details. Registrants will have 3 days to complete their payment in order to secure their slot for the session. Non-payment within the provided period will mean forfeiting one's slot. Please note that there will be only a number of slots for the workshop.
 
+  <p class='cta-box'>
+  <a class='cta-button' href='#register'>Register now</a>
+  </p>
+
+  ### Inquiries
+
+  For questions and inquiries, email us at <a href='mailto:workshops@bcds.design'>workshops@bcds.design</a>.
+
 images: |-
   <img src='images/wednesday-2.jpg'>
   <img src='images/typekita-1.jpg'>
   <img src='images/takeitslow.jpg'>
-  <img src='images/typekita-2.jpg'>
-  <img src='images/b.jpg'>
-  <img src='https://unsplash.it/600/600/?image=920'>
   <img src='images/typekita-3.jpg'>
-  <img src='https://unsplash.it/600/300/?image=890'>
+  <img src='images/b.jpg'>
+  <img src='images/typekita-2.jpg'>
 ---
