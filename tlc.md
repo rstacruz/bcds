@@ -1,7 +1,7 @@
 ---
 layout: event
 title: TLC Workshop
-description: Typography, Lettering & Calligraphy Workshop — Jan 16 & 23, 2016
+description: Typography, Lettering and Calligraphy Workshop — Jan 16 + 23
 og_images:
 - http://bcds.design/images/tlc/banner-b.png
 - http://bcds.design/images/tlc/preview.png
