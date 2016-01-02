@@ -3,10 +3,10 @@ layout: event
 title: TLC Workshop
 description: Typography, Lettering and Calligraphy Workshop — Jan 16 + 23
 og_images:
-- http://bcds.design/images/tlc/banner-b.png
+- http://bcds.design/images/tlc/banner-bb.png
 - http://bcds.design/images/tlc/preview.png
-- http://bcds.design/images/tlc/banner-a.png
-- http://bcds.design/images/tlc/banner-c.png
+- http://bcds.design/images/tlc/banner-aa.png
+- http://bcds.design/images/tlc/banner-cc.png
 
 prelude: |-
   <div class='info-card'>
