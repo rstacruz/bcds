@@ -35,12 +35,18 @@ content_markdown: |-
   Racket Room Collective, QC
   {:._no-desktop}
 
+  ![](images/wednesday.jpg)
+  {:.full-image.-cropped._no-desktop}
+
   An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
   {:.brief}
 
   ### What you'll learn
 
   The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
+
+  ![](images/typekita-2.jpg)
+  {:.full-image.-cropped._no-desktop}
 
   ## Course outline
 
@@ -63,6 +69,9 @@ content_markdown: |-
   <p class='cta-box'>
   <a class='cta-button -lite' href='#register'>Register now</a>
   </p>
+
+  ![](images/typekita-1.jpg)
+  {:.full-image.-cropped._no-desktop}
 
   ### Materials included
 
@@ -206,6 +215,9 @@ after_markdown: |-
   ## The venue
 
   [Racket Room Collective](http://www.racketroomcollective.com) is a coworking space in Quezon City ([view map](https://goo.gl/maps/82mduWgtmTP2)). Located along Sgt Esguerra Avenue, it's the perfect place for creative gatherings.
+
+  ![](images/takeitslow.jpg)
+  {:.full-image.-cropped._no-desktop}
 
   ### Additional info
 
