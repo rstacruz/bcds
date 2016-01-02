@@ -10,6 +10,9 @@
   &
     margin-left: -22px
 
+  &.-top-collapse
+    margin-top: -16px
+
   li
     display: inline-block
 
@@ -54,8 +57,12 @@
 
   .facebook a
     +socialiconify(#4c66a4, '\f230', '\f231')
+    &:hover, &:focus
+    &:hover:before, &:focus:before
+      background: #4c66a4
+      color: white
+      
   .twitter a
     +socialiconify(dodgerblue, '\f242', '\f243')
   .googleplus a
     +socialiconify(#f53, '\f234', '\f235')
-
