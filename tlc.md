@@ -45,6 +45,8 @@ content_markdown: |-
 
   The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
 
+  <p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
+
   ![](images/typekita-2.jpg)
   {:.full-image.-cropped._no-desktop}
 
@@ -66,9 +68,7 @@ content_markdown: |-
   > Learn the secrets on building well-composed art pieces.
   {:.course-item}
 
-  <p class='cta-box'>
-  <a class='cta-button -lite' href='#register'>Register now</a>
-  </p>
+  <p class='cta-box'><a class='cta-button -lite' href='#register'>Register now</a></p>
 
   ![](images/typekita-1.jpg)
   {:.full-image.-cropped._no-desktop}
@@ -90,6 +90,8 @@ content_markdown: |-
   - Carl Chua ([@carligraphy](https://instagram.com/carligraphy))
   - John Ed De Vera ([@battery_full](https://instagram.com/battery_full))
   - Rico Sta. Cruz ([@rstacruz](https://instagram.com/rstacruz))
+
+  <p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
 
 intermission: |-
   <div class='panorama-section' id='register'>
