@@ -15,82 +15,6 @@ prelude: |-
     Racket Room Collective, QC<br>
   </div>
 
-content_markdown: |-
-  #### Better Creative Design Society
-  {:._top-collapse._copper}
-
-  # <b>TLC</b> <span>Typography, Lettering &<br>Calligraphy Workshop</span>
-  {:.tlc-heading}
-
-  <p class='cta-box'>
-  <a class='cta-button' href='#register'>Register now</a>
-  </p>
-
-  ### Jan 16 & 23, 2016
-  {:._no-desktop}
-
-  1PM — 5PM, Saturdays<br>
-  Racket Room Collective, QC
-  {:._no-desktop}
-
-  ![](images/wednesday.jpg)
-  {:.full-image.-cropped._no-desktop}
-
-  An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
-  {:.brief}
-
-  ### What you'll learn
-
-  The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
-
-  <p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
-
-  ![](images/typekita-2.jpg)
-  {:.full-image.-cropped._no-desktop}
-
-  ## Course outline
-
-  > #### Day 1: Hand Lettering 101
-  > Master the art of drawing letterforms. In this subject, we will learn the principles of typography and how they can be applied to make dramatic lettering pieces by hand.
-  {:.course-item}
-
-  > #### Day 1: Gothic Calligraphy
-  > Learn the wonderful art of writing blackletter calligraphy using broad-nibbed pens. We will be providing [Parallel Pens](http://pilotpen.us/categories/calligraphy-pens/parallel-pen/) as part of the workshop materials.
-  {:.course-item}
-
-  > #### Day 2: Brush Lettering
-  > Write expressive letters with our primer on brush lettering. You will learn how to maximize the use brushes and brush pens to draw eloquent script letters.
-  {:.course-item}
-
-  > #### Day 2: Typography layouts
-  > Learn the secrets on building well-composed art pieces.
-  {:.course-item}
-
-  <p class='cta-box'><a class='cta-button -lite' href='#register'>Register now</a></p>
-
-  ![](images/typekita-1.jpg)
-  {:.full-image.-cropped._no-desktop}
-
-  ### Materials included
-
-  There won't be a need to bring anything but an eagerness to learn. Of course, you're more than welcome to bring your own tools too, if you prefer! We will be providing the following materials, hand-picked by the BCDS team:
-
-  - Pilot Parallel pen
-  - Various brush pens
-  - Basic drawing tools (rules, pencils, erasers)
-  - Lots of paper
-
-  ### Your mentors
-
-  The BCDS team is a group of visual artists with a passion for typography. We are:
-
-  - Jelvin Base ([@jelvin](https://instagram.com/jelvin))
-  - Carl Chua ([@carligraphy](https://instagram.com/carligraphy))
-  - John Ed De Vera ([@battery_full](https://instagram.com/battery_full))
-  - Rico Sta. Cruz ([@rstacruz](https://instagram.com/rstacruz))
-
-  <p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
-
 intermission: |-
   <div class='panorama-section' id='register'>
   <div class='widecontainer _padded-2x'>
@@ -239,3 +163,79 @@ images: |-
   <img src='images/b.jpg'>
   <img src='images/typekita-2.jpg'>
 ---
+#### Better Creative Design Society
+{:._top-collapse._copper}
+
+# <b>TLC</b> <span>Typography, Lettering &<br>Calligraphy Workshop</span>
+{:.tlc-heading}
+
+<p class='cta-box'>
+<a class='cta-button' href='#register'>Register now</a>
+</p>
+
+### Jan 16 & 23, 2016
+{:._no-desktop}
+
+1PM — 5PM, Saturdays<br>
+Racket Room Collective, QC
+{:._no-desktop}
+
+![](images/wednesday.jpg)
+{:.full-image.-cropped._no-desktop}
+
+An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
+{:.brief}
+
+### What you'll learn
+
+The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
+
+<p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
+
+![](images/typekita-2.jpg)
+{:.full-image.-cropped._no-desktop}
+
+## Course outline
+
+> #### Day 1: Hand Lettering 101
+> Master the art of drawing letterforms. In this subject, we will learn the principles of typography and how they can be applied to make dramatic lettering pieces by hand.
+{:.course-item}
+
+> #### Day 1: Gothic Calligraphy
+> Learn the wonderful art of writing blackletter calligraphy using broad-nibbed pens. We will be providing [Parallel Pens](http://pilotpen.us/categories/calligraphy-pens/parallel-pen/) as part of the workshop materials.
+{:.course-item}
+
+> #### Day 2: Brush Lettering
+> Write expressive letters with our primer on brush lettering. You will learn how to maximize the use brushes and brush pens to draw eloquent script letters.
+{:.course-item}
+
+> #### Day 2: Typography layouts
+> Learn the secrets on building well-composed art pieces.
+{:.course-item}
+
+<p class='cta-box'><a class='cta-button -lite' href='#register'>Register now</a></p>
+
+![](images/typekita-1.jpg)
+{:.full-image.-cropped._no-desktop}
+
+### Materials included
+
+There won't be a need to bring anything but an eagerness to learn. Of course, you're more than welcome to bring your own tools too, if you prefer! We will be providing the following materials, hand-picked by the BCDS team:
+
+- Pilot Parallel pen
+- Various brush pens
+- Basic drawing tools (rules, pencils, erasers)
+- Lots of paper
+
+### Your mentors
+
+The BCDS team is a group of visual artists with a passion for typography. We are:
+
+- Jelvin Base ([@jelvin](https://instagram.com/jelvin))
+- Carl Chua ([@carligraphy](https://instagram.com/carligraphy))
+- John Ed De Vera ([@battery_full](https://instagram.com/battery_full))
+- Rico Sta. Cruz ([@rstacruz](https://instagram.com/rstacruz))
+
+<p class='cta-box _no-desktop'><a class='cta-button -lite' href='#register'>Register now</a></p>
+
+{% include social-list.html page=page %}
