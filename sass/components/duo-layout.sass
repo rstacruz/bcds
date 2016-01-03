@@ -20,7 +20,6 @@
       width: 50%
 
   > .duo-ornament
-    z-index: 2
     @media (max-width: 768px)
       display: none
 
@@ -67,6 +66,7 @@
     border: solid $stroke-width $lighttan
     border-right: 0
     opacity: .8
+    z-index: 1
 
   // Right
   &:after
@@ -74,6 +74,7 @@
     border: solid $stroke-width mix($ecru, white, 40%)
     border-left: 0
     opacity: 1
+    z-index: 10
 
 .duo-content
   &
@@ -123,5 +124,5 @@
     border: solid 16px white
     border-right: 0
     position: relative
-    z-index: 40
+    z-index: 2
     border-left-width: 32px

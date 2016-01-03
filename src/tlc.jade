@@ -15,16 +15,19 @@ extends ../layouts/event.jade
 block images
   img(src='images/workshops/wednesday-2.jpg')
   img(src='images/workshops/typekita-1.jpg')
-  img(src='images/workshops/takeitslow.jpg')
   img.-highlight(src='images/workshops/satinka-1.jpg')
+  img(src='images/workshops/takeitslow.jpg')
   img(src='images/workshops/b.jpg')
   img(src='images/workshops/typekita-2.jpg')
-
-  -// repeat
   img(src='images/workshops/typekita-3.jpg')
-  img(src='images/workshops/typekita-1.jpg')
-  img(src='images/workshops/takeitslow.jpg')
-  img(src='images/workshops/typekita-2.jpg')
+
+  each i in [0, 1]
+    img(src='images/workshops/wednesday-2.jpg')
+    img(src='images/workshops/typekita-3.jpg')
+    img(src='images/workshops/takeitslow.jpg')
+    img(src='images/workshops/satinka-1.jpg')
+    img(src='images/workshops/b.jpg')
+    img(src='images/workshops/typekita-2.jpg')
 
 -// ------------------------------------------------------------------------------
 
