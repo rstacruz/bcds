@@ -1,3 +1,7 @@
+onmount('p', function () {
+  unorphan(this)
+})
+
 onmount('[href="#register"]', function () {
   on(this, 'click', function (e) {
     openRegisterForm()
