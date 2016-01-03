@@ -861,6 +861,9 @@ html, body {
     font-size: 1.95312em;
     margin-bottom: 0;
   }
+  .landing-hero > .container > .tagline br {
+    display: none;
+  }
 }
 
 .links-block {
