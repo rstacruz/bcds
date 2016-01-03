@@ -854,6 +854,7 @@ html, body {
   font-size: 3.05176em;
   color: white;
   line-height: 1.2;
+  padding-right: 12.5%;
 }
 
 @media (max-width: 768px) {
