@@ -840,6 +840,7 @@ html, body {
   max-width: 960px;
   margin: 0 auto;
   padding: 32px;
+  padding-left: 64px;
 }
 
 @media (max-width: 768px) {
