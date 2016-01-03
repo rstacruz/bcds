@@ -22,7 +22,7 @@ intermission: |-
     <div class='register-heading'>
       <h2>Reserve your seat</h2>
       <p class='lead'>Only 25 seats available</p>
-      <p>Workshop fee is <strong>P 5,500</strong>, which includes materials, worksheets, food and other goodies. We accept payments over bank deposit.</p>
+      <p>Workshop fee is <strong>P 5,500</strong>, which includes <strong>2 days of training,</strong> materials, worksheets, food and other goodies. We accept payments over bank deposit.</p>
       <button role='register' class='cta-button-2'>Reserve your seat</button>
     </div>
     <form id='register-form' class='_hide' action="https://docs.google.com/forms/d/1eWR3AyJ-7Mb8nK5vjkyr_bitMK27pBbZnVzrdqSz1zE/formResponse?embedded=true" method="POST" id="ss-form" target="_self">
