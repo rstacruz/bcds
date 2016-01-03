@@ -1,35 +1,3 @@
----
-# find src/images/**/*.{jpg,png} | sed 's/^src/- /g'
-images:
-- /images/workshops/b.jpg
-- /images/workshops/satinka-1.jpg
-- /images/workshops/takeitslow.jpg
-- /images/workshops/typekita-1.jpg
-- /images/workshops/typekita-2.jpg
-- /images/workshops/typekita-3.jpg
-- /images/workshops/wednesday-2.jpg
-- /images/workshops/wednesday.jpg
-- /images/logo/favicon-32.png
-- /images/logo/monogram-black.png
-- /images/logo/monogram-white.png
-- /images/logo/monogram.png
-- /images/tlc/banner-aa.png
-- /images/tlc/banner-bb.png
-- /images/tlc/banner-cc.png
-- /images/tlc/banner-d.png
-- /images/tlc/banner-e.png
-- /images/tlc/preview.png
-- /images/tlc/square-a.png
-- /images/tlc/square-b.png
-- /images/tlc/square-c.png
-- /images/tlc/square-d.png
-- /images/tlc/square-e.png
-- /images/tlc/square-f.png
-- /images/tlc/square-g.png
-- /images/tlc/square-h.png
-- /images/tlc/square-h2.png
----
-
 extends ../../layouts/base.jade
 block head
   link(rel='stylesheet', href='/assets/event.css')
@@ -66,7 +34,7 @@ block head
       font-weight: bold; }
 
 block body
-  each image in images
+  each image in staticImages
     a.image-link(href=(image))
       span.image
         img(src=(image))
