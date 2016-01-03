@@ -395,7 +395,7 @@ th {
   padding: 0;
 }
 
-.links-block .icon-instagram:before, .links-block .icon-facebook:before, .signatures-item .icon-instagram:before, .signatures-item .icon-facebook:before {
+.links-block .icon-instagram:before, .links-block .icon-facebook:before, .links-block .icon-email:before, .signatures-item .icon-instagram:before, .signatures-item .icon-facebook:before, .signatures-item .icon-email:before {
   line-height: 1em;
   font-family: "Ionicons";
   font-weight: normal;
@@ -406,6 +406,10 @@ th {
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.links-block .icon-email:before, .signatures-item .icon-email:before {
+  content: "\f423";
 }
 
 .links-block .icon-facebook:before, .signatures-item .icon-facebook:before {
@@ -859,6 +863,12 @@ html, body {
   }
 }
 
+@media (min-width: 769px) {
+  .landing-hero > .container > .tagline {
+    padding-right: 16.66667%;
+  }
+}
+
 .links-block {
   margin: 64px 0;
 }
@@ -883,6 +893,7 @@ html, body {
   color: #7a6c6c;
 }
 
+.links-block .icon-email:before,
 .links-block .icon-facebook:before,
 .links-block .icon-instagram:before {
   font-size: 12px;
@@ -944,6 +955,7 @@ html, body {
   color: #7a6c6c;
 }
 
+.signatures-item .icon-email:before,
 .signatures-item .icon-facebook:before,
 .signatures-item .icon-instagram:before {
   font-size: 12px;
@@ -1024,4 +1036,10 @@ html, body {
     float: right;
     text-align: right;
   }
+}
+
+em.amp {
+  font-style: italic;
+  font-family: baskerville, serif;
+  font-weight: normal;
 }
