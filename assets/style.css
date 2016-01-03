@@ -965,7 +965,9 @@ strong {
   width: 100%;
   display: block;
   margin: 0;
-  opacity: .2;
+  opacity: .22;
+  -webkit-transition: opacity 250ms linear;
+          transition: opacity 250ms linear;
 }
 
 .duo-images img.-highlight {
