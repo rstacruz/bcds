@@ -42,7 +42,7 @@ block content
   p.full-image.-cropped._no-desktop
     img(src='images/wednesday.jpg')
 
-  p.brief
+  p.brief.
     An intensive two-day bootcamp on the art of hand-crafting beautiful letters—materials included.
 
   h3.
@@ -69,13 +69,13 @@ block content
     h4.
       Day 1: Gothic Calligraphy
     p.
-      Learn the wonderful art of writing blackletter calligraphy using broad-nibbed pens. We will be providing #[a(href='http://pilotpen.us/categories/calligraphy-pens/parallel-pen/') Parallel Pens] as part of the workshop materials.
+      Learn the wonderful art of writing blackletter calligraphy using broad-nibbed pens. We will provide #[a(href='http://pilotpen.us/categories/calligraphy-pens/parallel-pen/') Parallel Pens] as part of the workshop materials.
 
   blockquote.course-item
     h4.
       Day 2: Brush Lettering
     p.
-      Write expressive letters with our primer on brush lettering. You will learn how to maximize the use brushes and brush pens to draw eloquent script letters.
+      You will learn how to maximize the use brushes and brush pens to draw expressive script letters. We will provide Zig Kuretake brush pens, #[a(href='https://kuretakezig.us/pens/brush-pen-22/') bristle tips] and #[a(href='https://kuretakezig.us/pens/bimoji/') felt tips], as part of the materials.
 
   blockquote.course-item
     h4.
@@ -118,6 +118,28 @@ block content
 
 -// ------------------------------------------------------------------------------
 
+block intermission
+  +reservation-block
+    .register-heading
+      h2 Reserve your seat
+      p.lead Only 25 seats available
+      p.
+        Workshop fee is #[strong P 5,500], which includes #[strong 2 days of training], materials, worksheets, food and other goodies. We accept payments over bank deposit.
+
+      button.cta-button-2(role='register').
+        Reserve your seat
+
+    include ../includes/tlc-form.html
+
+    .register-info._hide
+      p.
+        Workshop fee is #[strong P 5,500]. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.
+
+      p.
+        Also, please take note that workshop fee is NON-REFUNDABLE. However, in the event that one needs to back out/withdraw from the class, the fee may be transferable to another person and can be used on the same workshop date. It is the responsibility of the withdrawing student to look for his/her replacement and to provide the organizer with the substitute student&apos;s information.
+
+-// ------------------------------------------------------------------------------
+
 block after
   h2.
     The venue
@@ -142,28 +164,6 @@ block after
   p.
     For questions and inquiries, email us at
     #[a(href='mailto:workshops@bcds.design') workshops@bcds.design].
-
--// ------------------------------------------------------------------------------
-
-block intermission
-  +reservation-block
-    .register-heading
-      h2 Reserve your seat
-      p.lead Only 25 seats available
-      p.
-        Workshop fee is #[strong P 5,500], which includes #[strong 2 days of training], materials, worksheets, food and other goodies. We accept payments over bank deposit.
-
-      button.cta-button-2(role='register').
-        Reserve your seat
-
-    include ../includes/tlc-form.html
-
-    .register-info._hide
-      p.
-        Workshop fee is #[strong P 5,500]. After you submit this form, we'll contact you in 48 hours with instructions on bank deposit payment.
-
-      p.
-        Also, please take note that workshop fee is NON-REFUNDABLE. However, in the event that one needs to back out/withdraw from the class, the fee may be transferable to another person and can be used on the same workshop date. It is the responsibility of the withdrawing student to look for his/her replacement and to provide the organizer with the substitute student&apos;s information.
 
 -// ------------------------------------------------------------------------------
 -// Helpers
