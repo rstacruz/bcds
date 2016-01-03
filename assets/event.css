@@ -439,11 +439,10 @@ html, body {
   min-height: 100%;
   margin: 0;
   padding: 0;
-  overflow-x: hidden;
 }
 
 html {
-  background: #292424;
+  overflow-x: hidden;
 }
 
 @media (max-width: 769px) {
