@@ -2,7 +2,7 @@ language: node_js
 node_js:
 - '4'
 script:
-  - npm run bulid
+  - npm run build
 after_success:
 - if [ "$TRAVIS_BRANCH" = "master" -a "$TRAVIS_PULL_REQUEST" = "false" ]; then ./node_modules/.bin/git-update-ghpages -e; fi
 cache:
