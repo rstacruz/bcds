@@ -776,13 +776,9 @@ strong {
   height: 96px;
   padding: 32px 20px;
   -webkit-transform: translate3d(0, 0, 0);
-  -webkit-transition: -webkit-transform 300ms ease-out;
-  -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, 0, 0);
   -webkit-transition: -webkit-transform 300ms ease-out;
           transition: transform 300ms ease-out;
-  -webkit-transition: -webkit-transform 300ms ease-out, -webkit-transform 300ms ease-out;
-          transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
 }
 
 .menu-toggle > div {
@@ -846,9 +842,7 @@ strong {
   background: #7a6c6c;
   z-index: 20;
   -webkit-transition: -webkit-transform 300ms ease-out;
-  transition: transform 300ms ease-out;
-  -webkit-transition: -webkit-transform 300ms ease-out, -webkit-transform 300ms ease-out;
-          transition: transform 300ms ease-out, -webkit-transform 300ms ease-out;
+          transition: transform 300ms ease-out;
   color: white;
   text-align: center;
   padding: 200px 32px;
@@ -862,14 +856,14 @@ strong {
 
 .menu-dropdown {
   -webkit-transform: translate3d(-100%, 0, 0);
-  transform: translate3d(-100%, 0, 0);
+          transform: translate3d(-100%, 0, 0);
   width: 100%;
 }
 
 @media (min-width: 480px) {
   .menu-dropdown {
     -webkit-transform: translate3d(-400px, 0, 0);
-    transform: translate3d(-400px, 0, 0);
+            transform: translate3d(-400px, 0, 0);
     width: 400px;
   }
 }
@@ -914,7 +908,7 @@ input:checked ~ .menu-toggle > div::after {
 
 input:checked ~ .menu-dropdown {
   -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
 }
 
 input:checked ~ .menu-screen {
@@ -923,7 +917,6 @@ input:checked ~ .menu-screen {
 }
 
 .panorama-section {
-  background: -webkit-linear-gradient(165deg, #1b1818, rgba(27, 24, 24, 0.98) 50%, rgba(27, 24, 24, 0.7)), url("https://unsplash.it/1400/900/?image=914") center center/cover;
   background: -webkit-linear-gradient(285deg, #1b1818, rgba(27, 24, 24, 0.98) 50%, rgba(27, 24, 24, 0.7)), url("https://unsplash.it/1400/900/?image=914") center center/cover;
   background: linear-gradient(165deg, #1b1818, rgba(27, 24, 24, 0.98) 50%, rgba(27, 24, 24, 0.7)), url("https://unsplash.it/1400/900/?image=914") center center/cover;
   background-color: #1b1818;
@@ -1123,8 +1116,8 @@ input:checked ~ .menu-screen {
   padding-left: 12px;
 }
 
-.ss-question-list .ss-q-short::-ms-input-placeholder,
-.ss-question-list .ss-q-long::-ms-input-placeholder {
+.ss-question-list .ss-q-short::-webkit-input-placeholder,
+.ss-question-list .ss-q-long::-webkit-input-placeholder {
   color: #BF6D33;
   font-weight: normal;
   opacity: .2;
@@ -1134,15 +1127,6 @@ input:checked ~ .menu-screen {
 
 .ss-question-list .ss-q-short::-moz-placeholder,
 .ss-question-list .ss-q-long::-moz-placeholder {
-  color: #BF6D33;
-  font-weight: normal;
-  opacity: .2;
-  font-family: serif;
-  font-style: italic;
-}
-
-.ss-question-list .ss-q-short::-webkit-input-placeholder,
-.ss-question-list .ss-q-long::-webkit-input-placeholder {
   color: #BF6D33;
   font-weight: normal;
   opacity: .2;
@@ -1168,18 +1152,13 @@ input:checked ~ .menu-screen {
   font-style: italic;
 }
 
-.ss-question-list .ss-q-short:focus::-ms-input-placeholder,
-.ss-question-list .ss-q-long:focus::-ms-input-placeholder {
+.ss-question-list .ss-q-short:focus::-webkit-input-placeholder,
+.ss-question-list .ss-q-long:focus::-webkit-input-placeholder {
   opacity: .1;
 }
 
 .ss-question-list .ss-q-short:focus::-moz-placeholder,
 .ss-question-list .ss-q-long:focus::-moz-placeholder {
-  opacity: .1;
-}
-
-.ss-question-list .ss-q-short:focus::-webkit-input-placeholder,
-.ss-question-list .ss-q-long:focus::-webkit-input-placeholder {
   opacity: .1;
 }
 
@@ -1253,7 +1232,7 @@ input:checked ~ .menu-screen {
   padding-left: 12px;
 }
 
-.ss-question-list .ss-q-other::-ms-input-placeholder {
+.ss-question-list .ss-q-other::-webkit-input-placeholder {
   color: #BF6D33;
   font-weight: normal;
   opacity: .2;
@@ -1262,14 +1241,6 @@ input:checked ~ .menu-screen {
 }
 
 .ss-question-list .ss-q-other::-moz-placeholder {
-  color: #BF6D33;
-  font-weight: normal;
-  opacity: .2;
-  font-family: serif;
-  font-style: italic;
-}
-
-.ss-question-list .ss-q-other::-webkit-input-placeholder {
   color: #BF6D33;
   font-weight: normal;
   opacity: .2;
@@ -1293,15 +1264,11 @@ input:checked ~ .menu-screen {
   font-style: italic;
 }
 
-.ss-question-list .ss-q-other:focus::-ms-input-placeholder {
+.ss-question-list .ss-q-other:focus::-webkit-input-placeholder {
   opacity: .1;
 }
 
 .ss-question-list .ss-q-other:focus::-moz-placeholder {
-  opacity: .1;
-}
-
-.ss-question-list .ss-q-other:focus::-webkit-input-placeholder {
   opacity: .1;
 }
 
