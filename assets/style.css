@@ -968,6 +968,15 @@ strong {
   opacity: .2;
 }
 
+.duo-images img.-highlight {
+  opacity: 1;
+  border: solid 16px white;
+  border-right: 0;
+  position: relative;
+  z-index: 40;
+  border-left-width: 32px;
+}
+
 .follow-us {
   line-height: 1.5;
   font-family: karla, sans-serif;
