@@ -2,6 +2,8 @@
 
 The website in [bcds.design](http://bcds.design).
 
+[![Status](https://travis-ci.org/rstacruz/bcds.svg?branch=master)](https://travis-ci.org/rstacruz/bcds "See test builds")
+
 ### Development setup
 
 Install [Node.js](https://nodejs.org/) (at least v4.0), and then:
