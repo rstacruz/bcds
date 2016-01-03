@@ -596,6 +596,8 @@ strong {
 
 .cta-box {
   margin: 2em 0;
+  position: relative;
+  z-index: 300;
 }
 
 @media (min-width: 769px) {
@@ -843,10 +845,6 @@ strong {
   }
 }
 
-.duo-layout > .duo-ornament {
-  z-index: 2;
-}
-
 @media (max-width: 768px) {
   .duo-layout > .duo-ornament {
     display: none;
@@ -902,6 +900,7 @@ strong {
   border: solid 3px #7a6c6c;
   border-right: 0;
   opacity: .8;
+  z-index: 1;
 }
 
 .duo-ornament:after {
@@ -909,6 +908,7 @@ strong {
   border: solid 3px #efeeee;
   border-left: 0;
   opacity: 1;
+  z-index: 10;
 }
 
 .duo-content {
@@ -973,7 +973,7 @@ strong {
   border: solid 16px white;
   border-right: 0;
   position: relative;
-  z-index: 40;
+  z-index: 2;
   border-left-width: 32px;
 }
 
