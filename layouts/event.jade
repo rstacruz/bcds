@@ -1,8 +1,11 @@
+- rootClass = 'layout-event'
+
 extends base.jade
 include ../includes/social-list.jade
 
 block head
   title= title
+  link(rel='stylesheet', href='/assets/event.css')
   meta(content='website', property='og:type')
   meta(content=(title), property='og:title')
   meta(content=(title), name='description')
