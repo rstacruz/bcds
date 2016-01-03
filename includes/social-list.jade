@@ -1,0 +1,14 @@
+mixin social-list(page, klass)
+  - siteUrl = 'http://bcds.design'
+  ul.social-list(class=(klass))
+    li.facebook.hint--bottom(data-hint='Share on Facebook')
+      a(href=('https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(siteUrl + page.url)), target='share')
+        span.text Like
+    = ' '
+    li.twitter.hint--bottom(data-hint='Share on Twitter')
+      a(href=('https://twitter.com/intent/tweet?text=' + encodeURIComponent(`${page.description} ${siteUrl + page.url}`)), target='share')
+        span.text Tweet
+    = ' '
+    li.googleplus.hint--bottom(data-hint='Share on Google Plus')
+      a(href=('https://plus.google.com/share?url=' + encodeURIComponent(siteUrl + page.url)), target='share')
+        span.text +1

@@ -1,0 +1,25 @@
+.panorama-section
+  $color: darken($tan, 5%)
+  $image: 'https://unsplash.it/1400/900/?image=914'
+  background: -webkit-linear-gradient(180deg - 15deg, rgba($color, 1), rgba($color, .98) 50%, rgba($color, .7)), url($image) center center / cover
+  background:         linear-gradient(180deg - 15deg, rgba($color, 1), rgba($color, .98) 50%, rgba($color, .7)), url($image) center center / cover
+  background-color: $color
+  color: $lightertan
+  background-attachment: fixed
+  position: relative
+  padding-top: 32px
+  padding-bottom: 32px
+
+  @media (min-width: 961px)
+    &:after
+      content: ''
+      position: absolute
+      left: 32px * 2
+      top: 32px
+      right: 32px
+      bottom: 32px
+      pointer-events: none
+      border: solid $stroke-width $copper
+
+  strong
+    color: white

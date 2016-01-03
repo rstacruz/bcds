@@ -1,0 +1,39 @@
+.sidecontainer
+  +clearfix
+  width: auto
+  margin: 0 16px
+
+  @media (min-width: 769px)
+    margin: 0
+    max-width: 480px
+
+.container
+  +clearfix
+  max-width: 780px
+  margin: 0 auto
+
+  @media (max-width: 780px)
+    width: auto
+    margin: 0 16px
+
+.widecontainer
+  +clearfix
+  width: auto
+  margin: 0 16px
+
+  @media (min-width: 481px)
+    width: auto
+    margin: 0 32px
+    margin-left: 96px
+
+  @media (min-width: 769px)
+    max-width: 700px
+    margin: 0 auto
+    
+  @media (min-width: 1200px)
+    max-width: 960px
+    margin: 0 auto
+
+.md-col-6
+  @media (min-width: 1200px)
+    width: 60%

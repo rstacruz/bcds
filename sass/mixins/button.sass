@@ -1,0 +1,14 @@
+@mixin button
+  margin-top: 1em
+  background: $copper
+  color: white
+  border: 0
+  padding: 16px 64px
+  +caps-type
+
+  &:focus,
+  &:hover
+    background: lighten($copper, 10%)
+
+  @media (max-width: 768px)
+    padding: 12px 24px
