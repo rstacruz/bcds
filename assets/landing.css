@@ -863,12 +863,6 @@ html, body {
   }
 }
 
-@media (min-width: 769px) {
-  .landing-hero > .container > .tagline {
-    padding-right: 16.66667%;
-  }
-}
-
 .links-block {
   margin: 64px 0;
 }
