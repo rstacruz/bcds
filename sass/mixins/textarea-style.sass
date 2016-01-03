@@ -47,26 +47,11 @@
     outline: 0
     padding-left: 12px
 
-  &::-ms-input-placeholder
-    +textarea-placeholder
-  &::-moz-placeholder
-    +textarea-placeholder
-  &::-webkit-input-placeholder
-    +textarea-placeholder
   &::placeholder
     +textarea-placeholder
 
-  &:focus
-    &::-ms-input-placeholder
-      +textarea-placeholder-focus
-    &::-moz-placeholder
-      +textarea-placeholder-focus
-    &::-webkit-input-placeholder
-      +textarea-placeholder-focus
-    &::placeholder
-      +textarea-placeholder-focus
+  &:focus::placeholder
+    +textarea-placeholder-focus
 
-  &::-moz-selection
-    +textarea-selection
   &::selection
     +textarea-selection
