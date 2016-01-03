@@ -813,6 +813,24 @@ input:checked ~ .menu-screen {
   border: solid 2px #948585;
 }
 
+@media (min-width: 769px) {
+  .menu-toggle {
+    background-color: #0e0c0c;
+    height: 48px;
+    width: 48px;
+    padding: 18px 14px;
+    top: 16px;
+    left: 16px;
+    -webkit-transition: background-color 0ms linear 250ms;
+            transition: background-color 0ms linear 250ms;
+  }
+  input:checked ~ .menu-toggle {
+    background-color: transparent;
+    -webkit-transition: none;
+            transition: none;
+  }
+}
+
 html, body {
   background-color: #0e0c0c;
   color: #7a6c6c;
@@ -833,6 +851,7 @@ html, body {
 .landing-layout {
   padding-top: 128px;
   padding-bottom: 128px;
+  position: relative;
 }
 
 @media (min-width: 900px) {
@@ -840,6 +859,18 @@ html, body {
     background: -webkit-linear-gradient(bottom, rgba(14, 12, 12, 0.9), #0e0c0c 900px, #0e0c0c), url("https://unsplash.it/1400/900?image=612") left bottom/100% auto no-repeat, #0e0c0c;
     background: linear-gradient(to top, rgba(14, 12, 12, 0.9), #0e0c0c 900px, #0e0c0c), url("https://unsplash.it/1400/900?image=612") left bottom/100% auto no-repeat, #0e0c0c;
   }
+}
+
+.landing-layout:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+  left: 32px;
+  border: solid 8px #1b1818;
+  pointer-events: none;
 }
 
 .landing-hero > .container > .brand-logo {
