@@ -13,7 +13,7 @@ extends ../layouts/event.jade
 -// ------------------------------------------------------------------------------
 
 block images
-  img(src='images/workshops/wednesday-2.jpg')
+  img.-mute(src='images/workshops/wednesday-2.jpg')
   img(src='images/workshops/typekita-1.jpg')
   img.-highlight(src='images/workshops/satinka-1.jpg')
   img(src='images/workshops/takeitslow.jpg')
@@ -24,7 +24,6 @@ block images
   each i in [0, 1]
     img(src='images/workshops/wednesday-2.jpg')
     img(src='images/workshops/typekita-3.jpg')
-    img(src='images/workshops/takeitslow.jpg')
     img(src='images/workshops/satinka-1.jpg')
     img(src='images/workshops/b.jpg')
     img(src='images/workshops/typekita-2.jpg')
@@ -80,7 +79,7 @@ block content
     h4.
       Day 1: Hand Lettering 101
     p.
-      Master the art of drawing letterforms. In this subject, we will learn the principles of typography and how they can be applied to make dramatic lettering pieces by hand.  
+      Master the art of drawing letterforms. In this subject, we will learn the principles of typography and how they can be applied to make dramatic lettering pieces by hand.
 
   blockquote.course-item
     h4.
