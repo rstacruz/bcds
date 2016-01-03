@@ -1,19 +1,140 @@
 @import 'common'
 
 html, body
-  background-color: darken($tan, 20%)
-  color: $text
+  background-color: darken($tan, 10%)
+  color: $lighttan
+
+.container
+  max-width: 960px
+  margin: 0 auto
+  padding: 32px
+
+  @media (max-width: 768px)
+    padding: 16px
+
+.landing-layout
+  $color: darken($tan, 10%)
+  @media (min-width: 900px)
+    background: linear-gradient(to top, rgba($color, .9), $color 900px, $color), url('https://unsplash.it/1400/900?image=612') left bottom / 100% auto no-repeat, $color
+  padding-top: 128px
+  padding-bottom: 128px
 
 .landing-hero
-  > .container
-    max-width: 960px
-    margin: 0 auto
-    padding-top: 128px
-    padding-bottom: 128px
 
 .landing-hero > .container
+  > .brand-logo
+    width: 64px
+    height: 64px
+
   > .tagline
+    margin: 64px 0 128px 0
     +heading-type
-    font-size: 3em
+    font-size: ms(5)
     color: white
     line-height: 1.2
+
+    @media (max-width: 768px)
+      font-size: ms(3)
+      margin-bottom: 0
+
+@mixin link-block
+  &
+    font-size: ms(-1)
+
+  > p,
+  > h3
+    margin: 0
+    padding: 0
+    font-size: 1em
+    text-transform: uppercase
+
+  > h3
+    +caps-type
+    color: $lighttan
+
+  .icon-facebook:before,
+  .icon-instagram:before
+    font-size: 12px
+    margin-left: .12em
+    position: relative
+    top: -1px
+
+  .icon-instagram:before
+    +ion-icon('social-instagram')
+
+  .icon-facebook:before
+    +ion-icon('social-facebook')
+
+  .space
+    display: inline-block
+    width: 1em
+
+.links-block
+  +link-block
+  margin: 64px 0
+
+  @media (max-width: 768px)
+    margin: 32px 0
+
+.signatures-list
+  > .signatures-item
+    margin: 16px 0
+
+  @media (min-width: 769px)
+    display: flex
+    margin: 64px 0
+
+    > .signatures-item
+      flex: 0 0 25%
+      padding-right: 24px
+      margin: 0
+
+.signatures-item
+  +link-block
+
+.landing-workshops > .container
+  > .title
+    color: white
+    +subheading-type
+    font-size: ms(2)
+    text-transform: none
+    margin: 0
+    padding: 0
+    line-height: 1.3
+    margin-bottom: 16px
+
+.workshop-item
+  +clearfix
+  border-top: solid 1px rgba($decopper, .2)
+  padding: 16px 0
+  color: $lighttan
+
+  > h4,
+  > p
+    margin: 0
+    padding: 0
+
+  > h4 > a
+    +caps-type
+    margin-right: .1em
+
+  > .title
+    font-size: ms(0)
+    color: $lighttan
+    text-transform: none
+    font-weight: normal
+
+  > .title > a
+    +caps-type
+
+  > .title > .details
+    margin-left: .2em
+    letter-spacing: 0
+
+  @media (min-width: 769px)
+    > .title
+      float: left
+
+    > .date
+      float: right
+      text-align: right

@@ -5,8 +5,69 @@ block head
   link(rel='stylesheet', href='/assets/landing.css')
 
 block body
-  .landing-hero
-    .container
-      .brand-logo
-      .tagline.
-        We believe in the power of beautiful letterforms. Our belief is that calligraphy is the art of imbuing a part of your soul into hand-written ink. We're here to pass this passion to the world. We are BCDS.
+  include ../includes/menu-block.jade
+  .landing-layout
+    .landing-hero
+      .container
+        .brand-logo
+
+        .links-block
+          h3 Better Creative Design Society
+          p.
+            #[a(href='https://instagram.com/wearebcds') wearebcds]
+            #[i.icon-instagram]
+            #[i.space]
+            #[a(href='https://facebook.com/wearebcds') wearebcds]
+            #[i.icon-facebook]
+
+        .tagline.
+          #[b We] believe in the power of beautiful letterforms. Calligraphy, to us, is the art of imbuing a part of your soul into hand-written ink. We're here to pass this passion of ours to you and to the world. We are BCDS.
+
+        .signatures-list
+          .signatures-item
+            h3 Jelvin Base
+            p #[a(href='https://instagram.com/jelvin') @jelvin]
+
+          .signatures-item
+            h3 Carl Chua
+            p #[a(href='https://instagram.com/carligraphy') @carligraphy]
+
+          .signatures-item
+            h3 John Ed De Vera
+            p #[a(href='https://instagram.com/battery_full') @battery_full]
+
+          .signatures-item
+            h3 Rico Sta. Cruz
+            p #[a(href='https://instagram.com/rstacruz') @rstacruz]
+
+    .landing-workshops
+      .container
+        h3.title Upcoming workshops
+
+        .workshop-item
+          h4.title
+            a(href='tlc').
+              TLC—Typography, Lettering & Calligraphy
+            span.details at Rocket Room Collective
+          p.date.
+            Jan 16 & 23, 2016
+
+    .landing-workshops
+      .container
+        h3.title Past workshops
+
+        .workshop-item.-done
+          h4.title
+            a(href='.').
+              Brush Lettering and Hand Lettering
+            span.details at Type Kita
+          p.date.
+            Dec 22, 2015
+
+        .workshop-item.-done
+          h4.title
+            a(href='.').
+              Gothic Calligraphy
+            span.details at Type Kita
+          p.date.
+            Dec 22, 2015
