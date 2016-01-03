@@ -1,5 +1,19 @@
 @import 'common'
 
+@media (min-width: 769px)
+  .menu-toggle
+    background-color: darken($tan, 10%)
+    height: 48px
+    width: 48px
+    padding: 18px 14px
+    top: 16px
+    left: 16px
+    transition: background-color 0ms linear 250ms
+
+  input:checked ~ .menu-toggle
+    background-color: transparent
+    transition: none
+
 html, body
   background-color: darken($tan, 10%)
   color: $lighttan
@@ -18,8 +32,18 @@ html, body
     background: linear-gradient(to top, rgba($color, .9), $color 900px, $color), url('https://unsplash.it/1400/900?image=612') left bottom / 100% auto no-repeat, $color
   padding-top: 128px
   padding-bottom: 128px
+  position: relative
 
-.landing-hero
+  &:before
+    content: ''
+    display: block
+    position: absolute
+    top: 32px
+    right: 32px
+    bottom: 32px
+    left: 32px
+    border: solid 8px darken($tan, 5%)
+    pointer-events: none
 
 .landing-hero > .container
   > .brand-logo
