@@ -10,6 +10,8 @@ og_images:
 
 extends ../layouts/event.jade
 
+-// ------------------------------------------------------------------------------
+
 block images
   img(src='images/wednesday-2.jpg')
   img(src='images/typekita-1.jpg')
@@ -28,8 +30,7 @@ block content
     b TLC
     span Typography, Lettering &#[br] Calligraphy Workshop
 
-  p.cta-box
-    a.cta-button(href='#register') Register now
+  +register-now-button
 
   h3._no-desktop
     Jan 16 & 23, 2016
@@ -50,8 +51,7 @@ block content
   p.
     The TLC Workshop is a 2-day workshop that aims to give you an in-depth view at letters and what certain styles represent. In this workshop, we will share to you the basic foundations of different letterforms as well as design and layout considerations when doing typography, lettering, and calligraphy pieces. The workshop will focus on hand lettering, brush lettering, Gothic calligraphy, and layout & design along with exercises and projects that will cater to the topics.
 
-  p.cta-box
-    a.cta-button.-lite(href='#register') Register now
+  +register-now-button('-lite', '_no-desktop')
 
   p.full-image.-cropped._no-desktop
     img(src='images/typekita-2.jpg')
@@ -82,8 +82,7 @@ block content
     p.
       Learn the secrets on building well-composed art pieces.
 
-  p.cta-box
-    a.cta-button.-lite(href='#register') Register now
+  +register-now-button('-lite')
 
   p.full-image.-cropped._no-desktop
     img(src='images/typekita-1.jpg')
@@ -111,8 +110,7 @@ block content
     - John Ed De Vera ([@battery_full](https://instagram.com/battery_full))
     - Rico Sta. Cruz ([@rstacruz](https://instagram.com/rstacruz))
 
-  p.cta-box
-    a.cta-button.-lite(href='#register') Register now
+  +register-now-button('-lite')
 
   +social-list({ url: '/tlc', title, description })
 
@@ -134,8 +132,7 @@ block after
   p.
     All signups will be on a first-come, first-served basis. However, completing this registration does not guarantee a seat for you. Upon registration, participants will be emailed payment details. Registrants will have 3 days to complete their payment in order to secure their slot for the session. Non-payment within the provided period will mean forfeiting one's slot. Please note that there will be only a number of slots for the workshop.
 
-  p.cta-box
-    a.cta-button(href='#register') Register now
+  +register-now-button
 
   h3.
     Inquiries
@@ -146,14 +143,8 @@ block after
 
 -// ------------------------------------------------------------------------------
 
-mixin reservation
-  #register.panorama-section
-    .widecontainer._padded-2x
-      .md-col-6
-        block
-
 block intermission
-  +reservation
+  +reservation-block
     .register-heading
       h2 Reserve your seat
       p.lead Only 25 seats available
@@ -171,3 +162,17 @@ block intermission
 
       p.
         Also, please take note that workshop fee is NON-REFUNDABLE. However, in the event that one needs to back out/withdraw from the class, the fee may be transferable to another person and can be used on the same workshop date. It is the responsibility of the withdrawing student to look for his/her replacement and to provide the organizer with the substitute student&apos;s information.
+
+-// ------------------------------------------------------------------------------
+-// Helpers
+
+mixin reservation-block
+  #register.panorama-section
+    .widecontainer._padded-2x
+      .md-col-6
+        block
+
+mixin register-now-button(buttonClass, klass)
+  p.cta-box(class=klass)
+    a.cta-button(href='#register' class=buttonClass).
+      Register now
