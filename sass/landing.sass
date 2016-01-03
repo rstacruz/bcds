@@ -30,25 +30,33 @@ html, body
   $color: darken($tan, 10%)
   @media (min-width: 900px)
     background: linear-gradient(to top, rgba($color, .9), $color 900px, $color), url('https://unsplash.it/1400/900?image=612') left bottom / 100% auto no-repeat, $color
-  padding-top: 128px
-  padding-bottom: 128px
   position: relative
+  padding-top: 32px
+  padding-bottom: 32px
 
-  &:before
-    content: ''
-    display: block
-    position: absolute
-    top: 32px
-    right: 32px
-    bottom: 32px
-    left: 32px
-    border: solid 8px darken($tan, 5%)
-    pointer-events: none
+  @media (min-width: 769px)
+    padding-top: 128px
+    padding-bottom: 128px
+
+    &:before
+      content: ''
+      display: block
+      position: absolute
+      top: 32px
+      right: 32px
+      bottom: 32px
+      left: 32px
+      border: solid 8px darken($tan, 5%)
+      pointer-events: none
 
 .landing-hero > .container
   > .brand-logo
     width: 64px
     height: 64px
+
+    @media (max-width: 768px)
+      width: 48px
+      height: 48px
 
   > .tagline
     margin: 64px 0 128px 0
@@ -62,6 +70,7 @@ html, body
     @media (max-width: 768px)
       font-size: ms(3)
       margin-bottom: 0
+      margin-top: 16px
       br
         display: none
 
