@@ -14,6 +14,7 @@
     "jstransformer-jade": "0.1.0",
     "jstransformer-markdown-it": "0.2.2",
     "metalsmith": "2.1.0",
+    "metalsmith-ignore": "0.1.2",
     "metalsmith-jstransformer": "0.5.3",
     "metalsmith-sense": "0.6.0",
     "metalsmith-start": "1.4.2",
