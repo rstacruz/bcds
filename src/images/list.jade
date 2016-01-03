@@ -1,0 +1,68 @@
+---
+images:
+- /images/b.jpg
+- /images/logo/favicon-32.png
+- /images/logo/monogram-black.png
+- /images/logo/monogram-white.png
+- /images/logo/monogram.png
+- /images/takeitslow.jpg
+- /images/tlc/banner-aa.png
+- /images/tlc/banner-bb.png
+- /images/tlc/banner-cc.png
+- /images/tlc/banner-d.png
+- /images/tlc/banner-e.png
+- /images/tlc/preview.png
+- /images/tlc/square-a.png
+- /images/tlc/square-b.png
+- /images/tlc/square-c.png
+- /images/tlc/square-d.png
+- /images/tlc/square-e.png
+- /images/tlc/square-f.png
+- /images/tlc/square-g.png
+- /images/typekita-1.jpg
+- /images/typekita-2.jpg
+- /images/typekita-3.jpg
+- /images/wednesday-2.jpg
+- /images/wednesday.jpg
+---
+
+extends ../../layouts/base.jade
+block head
+  style.
+    body { background: white; }
+    .image-link {
+      display: block;
+      float: left;
+      margin: 16px;
+      width: 300px;
+      background: #eee;
+      font-weight: normal;
+      font-size: 12px;
+      color: #333;
+      box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); }
+
+    .image-link > .image {
+      display: block;
+      line-height: 128px;
+      text-align: center;
+      padding: 8px;
+      height: 144px; }
+
+    .image-link > .image > img {
+      display: inline-block;
+      vertical-align: middle;
+      width: auto;
+      max-height: 128px; }
+
+    .image-link > .description {
+      display: block;
+      background: white;
+      padding: 8px 16px;
+      font-weight: bold; }
+
+block body
+  each image in images
+    a.image-link(href=(image))
+      span.image
+        img(src=(image))
+      span.description= image
