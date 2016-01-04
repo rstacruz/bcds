@@ -1,31 +1,5 @@
-extends ../layouts/base.jade
-
-block head
-  title BCDS — Better Creative Design Society
-  link(rel='stylesheet', href='/assets/landing.css')
-
-block body
-  include ../includes/menu-block.jade
-  .landing-layout
-    .landing-hero
-      .container
-        .brand-logo
-
-        .links-block
-          h3 Better Creative Design Society
-          p.
-            #[a(href='https://instagram.com/wearebcds') wearebcds]
-            #[i.icon-instagram]
-            #[i.space]
-            #[a(href='https://facebook.com/wearebcds') wearebcds]
-            #[i.icon-facebook]
-
-        .tagline.
-          Oops—this page can't be found.#[br]
-          Send us an email and maybe we can help.#[br]
-          #[a(href='mailto:workshops@bcds.dseign') workshops@bcds.design]
-
-        .links-block
-          h3 Or you can just...
-          p.
-            #[a(href='/home') Return home]
+---
+to: /home
+---
+doctype html
+meta(http-equiv='refresh' content=(`0; ${to}`))
