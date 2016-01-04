@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "node metalsmith.js",
+    "build": "env NODE_ENV=production node metalsmith.js",
     "start": "metalsmith-start"
   },
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
