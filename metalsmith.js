@@ -9,7 +9,7 @@ var app = Metalsmith(__dirname)
   })
   .use(require('metalsmith-ignore')('**/_*.*'))
   .use(require('metalsmith-jstransformer')())
-  .use(require('metalsmith-sense/sass')())
+  .use(require('metalsmith-sense-sass')())
 
 if (module.parent) {
   module.exports = app
