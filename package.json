@@ -10,7 +10,7 @@
   "author": "Rico Sta. Cruz <rico@ricostacruz.com>",
   "license": "MIT",
   "dependencies": {
-    "glob": "6.0.4",
+    "glob": "7.0.0",
     "iconfonts": "0.8.0",
     "jstransformer-jade": "0.1.0",
     "jstransformer-markdown-it": "0.2.2",
