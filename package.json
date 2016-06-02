@@ -16,7 +16,7 @@
     "jstransformer-markdown-it": "0.2.2",
     "metalsmith": "2.1.0",
     "metalsmith-ignore": "0.1.2",
-    "metalsmith-jstransformer": "0.5.3",
+    "metalsmith-jstransformer": "0.7.0",
     "metalsmith-sense-sass": "1.1.0",
     "metalsmith-start": "2.0.1",
     "normalize.css": "3.0.3"
