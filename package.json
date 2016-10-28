@@ -14,7 +14,7 @@
     "iconfonts": "0.8.0",
     "jstransformer-jade": "0.1.0",
     "jstransformer-markdown-it": "0.2.2",
-    "metalsmith": "2.1.0",
+    "metalsmith": "2.2.2",
     "metalsmith-ignore": "0.1.2",
     "metalsmith-jstransformer": "0.7.1",
     "metalsmith-sense-sass": "2.0.0",
