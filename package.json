@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "glob": "7.0.3",
-    "iconfonts": "0.8.0",
+    "iconfonts": "0.11.0",
     "jstransformer-jade": "0.1.0",
     "jstransformer-markdown-it": "0.2.2",
     "metalsmith": "2.1.0",
