@@ -19,7 +19,7 @@
     "metalsmith-jstransformer": "0.7.1",
     "metalsmith-sense-sass": "2.0.0",
     "metalsmith-start": "2.0.1",
-    "normalize.css": "4.2.0"
+    "normalize.css": "6.0.0"
   },
   "devDependencies": {
     "git-update-ghpages": "1.3.0"
